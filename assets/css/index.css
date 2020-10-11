@@ -285,7 +285,7 @@ body {
 	}
 
 	#main {
-		min-height: 90vh;
+		min-height: 100vh;
 		background-color: var(--bgColor);
 		border-bottom: solid 2px #eaeaea;
 	}
