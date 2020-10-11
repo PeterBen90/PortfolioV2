@@ -243,7 +243,8 @@ body {
 	width: 520px;
 	height: 460px;
 	transform: translate(60%, -30%);
-	transition: 0.1s ease;
+	-webkit-transform: translate(60%, -30%);
+	-moz-transform: translate(60%, -30%);
 }
 
 /* Additional Styles */
@@ -310,12 +311,6 @@ body {
 		left: 28%;
 		letter-spacing: 3px;
 		font-weight: 600;
-	}
-
-	.change-bg {
-		width: 450px;
-		height: 420px;
-		transform: translate(60%, -30%);
 	}
 
 	.nav li a {
