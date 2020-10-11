@@ -5,7 +5,8 @@ body {
 
 :root {
 	--contrast: #000000;
-	--bgColor: #f6f6f6;
+	/* --bgColor: #f6f6f6; */
+	--bgColor: #ffffff;
 	--fontColor: #000000;
 }
 
