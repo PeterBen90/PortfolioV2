@@ -285,7 +285,7 @@ body {
 	}
 
 	#main {
-		min-height: 85vh;
+		min-height: 88vh;
 		background-color: var(--bgColor);
 	}
 
@@ -294,7 +294,7 @@ body {
 		width: 300px !important;
 		height: auto;
 		position: absolute;
-		bottom: 10px !important;
+		bottom: 1px !important;
 	}
 
 	#menu-bar {
