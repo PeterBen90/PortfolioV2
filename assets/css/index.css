@@ -286,7 +286,7 @@ body {
 
 	#main {
 		min-height: 85vh;
-		background-color: red;
+		background-color: var(--bgColor);
 	}
 
 	.me2 {
