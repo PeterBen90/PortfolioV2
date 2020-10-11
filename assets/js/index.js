@@ -67,4 +67,4 @@ function menuOnClick() {
 // appHeight();
 
 var viewportHeight = $("#main").outerHeight();
-$("#main").css({ height: viewportHeight });
+$("#main").css({ minHeight: viewportHeight });
