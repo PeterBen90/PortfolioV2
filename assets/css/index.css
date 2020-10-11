@@ -294,7 +294,7 @@ body {
 		width: 300px !important;
 		height: auto;
 		position: absolute;
-		bottom: 0px !important;
+		bottom: 10px !important;
 	}
 
 	#menu-bar {
