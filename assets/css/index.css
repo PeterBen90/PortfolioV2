@@ -5,8 +5,8 @@ body {
 
 :root {
 	--contrast: #000000;
-	/* --bgColor: #f6f6f6; */
-	--bgColor: #ffffff;
+	--bgColor: #f6f6f6;
+	/* --bgColor: #ffffff; */
 	--fontColor: #000000;
 }
 
@@ -256,7 +256,7 @@ body {
 	font-weight: 600;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
 	.sub-title {
 		position: absolute;
 		bottom: 40%;
@@ -294,7 +294,7 @@ body {
 		width: 300px !important;
 		height: auto;
 		position: absolute;
-		bottom: 1px;
+		bottom: 0px !important;
 	}
 
 	#menu-bar {
