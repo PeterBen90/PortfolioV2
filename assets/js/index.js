@@ -58,19 +58,3 @@ function menuOnClick() {
 	document.getElementById("menu-bg").classList.toggle("change-bg");
 	document.getElementById("menu-items").classList.toggle("hidden");
 }
-
-function setDocHeight() {
-	document.documentElement.style.setProperty(
-		"--vh",
-		`${window.innerHeight / 100}px`
-	);
-}
-
-window.addEventListener("resize", function () {
-	setDocHeight();
-});
-window.addEventListener("orientationchange", function () {
-	setDocHeight();
-});
-
-setDocHeight();
