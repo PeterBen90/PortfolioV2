@@ -272,7 +272,7 @@ body {
 	font-weight: 600;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 450px) {
 	.sub-title {
 		position: absolute;
 		bottom: 40%;
