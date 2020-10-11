@@ -164,7 +164,7 @@ body {
 	width: 45px;
 	height: 40px;
 	/* margin: 30px 0 20px 20px; */
-	margin: 30px 20px 0 60px;
+	margin: 30px 30px 0 60px;
 	cursor: pointer;
 }
 
@@ -191,7 +191,7 @@ body {
 }
 
 .nav ul {
-	padding: 0 22px;
+	padding: 0 30px;
 }
 
 .nav li {
