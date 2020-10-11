@@ -1,19 +1,26 @@
-body {
-	margin: 0px;
-	padding: 0px;
-}
-
 :root {
 	--contrast: #000000;
 	--bgColor: #f6f6f6;
 	/* --bgColor: #ffffff; */
 	--fontColor: #000000;
+	--app-height: 100%;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+
+	@media not all and (hover: hover) {
+		height: var(--app-height);
+	}
 }
 
 #main {
 	min-height: 100vh;
-	min-height: 100%;
-	min-height: calc(var(--vh, 1vh) * 100);
 	background-color: var(--bgColor);
 	border-bottom: solid 2px #eaeaea;
 }
