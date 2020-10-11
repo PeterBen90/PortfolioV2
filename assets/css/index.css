@@ -284,12 +284,6 @@ body {
 		height: 80px !important;
 	}
 
-	#main {
-		min-height: 100vh;
-		background-color: var(--bgColor);
-		border-bottom: solid 2px #eaeaea;
-	}
-
 	.me2 {
 		/* display: none; */
 		width: 300px !important;
@@ -325,11 +319,6 @@ body {
 
 	.logo {
 		height: 80px !important;
-	}
-
-	#main {
-		min-height: 100vh;
-		background-color: var(--bgColor);
 	}
 
 	#menu-bar {
