@@ -10,11 +10,13 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
 	width: 100vw;
 	height: 100vh;
+}
 
-	@media not all and (hover: hover) {
+@media (max-width: 450px) {
+	html,
+	body {
 		height: var(--app-height);
 	}
 }
