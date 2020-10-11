@@ -299,10 +299,10 @@ body {
 		height: 80px !important;
 	}
 
-	/* #main {
+	#main {
 		min-height: 86vh;
 		background-color: var(--bgColor);
-	} */
+	}
 
 	.me2 {
 		/* display: none; */
