@@ -216,6 +216,9 @@ body {
 	background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 	border-radius: 50%;
 	transition: 0.3s ease;
+	transform: translate(60%, -30%);
+	-webkit-transform: translate(60%, -30%);
+	-moz-transform: translate(60%, -30%);
 	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -243,7 +246,6 @@ body {
 	width: 520px;
 	height: 460px;
 	transform: translate(60%, -30%);
-	transition: 0.5s ease-in;
 	-webkit-transform: translate(60%, -30%);
 	-moz-transform: translate(60%, -30%);
 }
