@@ -12,11 +12,8 @@ body {
 	margin: 0;
 	width: 100vw;
 	height: 100vh;
-}
 
-@media (max-width: 450px) {
-	html,
-	body {
+	@media max-width(hover: hover) {
 		height: var(--app-height);
 	}
 }

@@ -59,9 +59,12 @@ function menuOnClick() {
 	document.getElementById("menu-items").classList.toggle("hidden");
 }
 
-const appHeight = () => {
-	const doc = document.documentElement;
-	doc.style.setProperty("--app-height", `${window.innerHeight}px`);
-};
-window.addEventListener("resize", appHeight);
-appHeight();
+// const appHeight = () => {
+// 	const doc = document.documentElement;
+// 	doc.style.setProperty("--app-height", `${window.innerHeight}px`);
+// };
+// window.addEventListener("resize", appHeight);
+// appHeight();
+
+var viewportHeight = $("#main").outerHeight();
+$("#main").css({ height: viewportHeight });
