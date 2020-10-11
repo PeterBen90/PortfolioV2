@@ -308,8 +308,6 @@ body {
 		/* display: none; */
 		width: 300px !important;
 		height: auto;
-		position: absolute;
-		bottom: 1px !important;
 	}
 
 	#menu-bar {
