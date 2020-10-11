@@ -1,25 +1,18 @@
 :root {
 	--contrast: #000000;
 	--bgColor: #f6f6f6;
-	/* --bgColor: #ffffff; */
 	--fontColor: #000000;
-	--app-height: 100%;
 }
 
 html,
 body {
 	padding: 0;
 	margin: 0;
-	min-width: 100vw;
-	min-height: 100vh;
-
-	@media max-width(hover: hover) {
-		min-height: var(--app-height);
-	}
 }
 
 #main {
-	min-height: 100vh;
+	min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+	min-height: calc(var(--vh, 1vh) * 100);
 	background-color: var(--bgColor);
 	border-bottom: solid 2px #eaeaea;
 }
