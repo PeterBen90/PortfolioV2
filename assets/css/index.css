@@ -284,12 +284,17 @@ body {
 		height: 80px !important;
 	}
 
+	#main {
+		min-height: 80vh;
+		background-color: red;
+	}
+
 	.me2 {
 		/* display: none; */
 		width: 300px !important;
 		height: auto;
 		position: absolute;
-		bottom: 0px !important;
+		bottom: 20vh !important;
 	}
 
 	#menu-bar {
