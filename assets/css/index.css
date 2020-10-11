@@ -212,6 +212,10 @@ body {
 	transition: all 0.8s;
 }
 
+.active {
+	color: #ffc300 !important;
+}
+
 .menu-bg,
 #menu {
 	top: 0;
