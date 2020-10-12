@@ -90,7 +90,7 @@ $(document).ready(function () {
 				{
 					scrollTop: $target.offset().top + 2,
 				},
-				500,
+				700,
 				"swing",
 				function () {
 					window.location.hash = target;
