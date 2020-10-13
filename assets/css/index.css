@@ -363,9 +363,9 @@ body {
 	bottom: 5px;
 }
 
-.about {
+.about,
+.work {
 	text-align: center;
-	margin-top: 100px;
 	height: 100vh;
 	width: 100%;
 }
@@ -374,7 +374,7 @@ body {
 	width: 500px;
 	height: auto;
 	position: absolute;
-	bottom: 1px;
+	bottom: 2px;
 }
 
 .curtain {
@@ -398,6 +398,7 @@ body {
 	font-weight: bold;
 	font-size: 3rem;
 	letter-spacing: 5px;
+	padding-top: 100px;
 }
 
 .flexbox {
@@ -439,6 +440,14 @@ body {
 }
 
 .intro-text2 {
-	margin-top: 55px;
+	margin-top: 60px;
 	color: #9b9ba3;
+}
+
+#work-section {
+	background: #f6f6f6;
+}
+
+#about-section {
+	border-bottom: 2px solid #eaeaea;
 }
