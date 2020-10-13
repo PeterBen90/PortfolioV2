@@ -237,7 +237,7 @@ body {
 	transform: translate(60%, -30%);
 	-webkit-transform: translate(60%, -30%);
 	-moz-transform: translate(60%, -30%);
-	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .change {
@@ -315,7 +315,22 @@ body {
 	}
 
 	.flexbox {
-		margin-top: 50px !important;
+		margin-top: 35px !important;
+		margin-left: 5% !important;
+		margin-right: 5% !important;
+	}
+
+	.intro-text,
+	.intro-text2 {
+		font-size: 20px !important;
+	}
+
+	.intro-text2 {
+		margin-top: 0 !important;
+	}
+
+	.diff-text {
+		font-size: 30px !important;
 	}
 }
 
@@ -331,6 +346,12 @@ body {
 	#menu-bar {
 		height: 30px;
 		width: 35px;
+	}
+
+	.flexbox {
+		margin-top: 50px !important;
+		margin-left: 5% !important;
+		margin-right: 5% !important;
 	}
 }
 
@@ -377,20 +398,19 @@ body {
 .section-title {
 	font-weight: bold;
 	font-size: 3rem;
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 }
 
 .flexbox {
 	display: flex;
-	/* margin: 50px 300px 50px 300px; */
-	margin-top: 80px;
-	padding-left: 30px;
-	padding-right: 30px;
+	margin-top: 70px;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .flexbox div {
-	flex: 0.5;
-	margin: 5px; /* need some space ?*/
+	flex: 1;
+	margin: 5px;
 }
 
 .flexbox div img {
@@ -404,9 +424,22 @@ body {
 	letter-spacing: 2px;
 }
 
-/* .icons {
-	animation-duration: 2s;
-	animation-delay: 400ms;
-	animation-name: fadeInUp;
-	visibility: visible;
-} */
+.container {
+	text-align: left;
+}
+
+.diff-text {
+	font-weight: bold;
+	font-size: 40px;
+	background: linear-gradient(to top, #ffc300 40%, transparent 40%);
+}
+
+.intro-text,
+.intro-text2 {
+	font-size: 25px;
+}
+
+.intro-text2 {
+	margin-top: 55px;
+	color: #9b9ba3;
+}
