@@ -366,7 +366,7 @@ body {
 .about,
 .work {
 	text-align: center;
-	height: 100vh;
+	height: 120vh;
 	width: 100%;
 }
 
@@ -450,4 +450,9 @@ body {
 
 #about-section {
 	border-bottom: 2px solid #eaeaea;
+}
+
+.footer h3 {
+	text-align: center;
+	height: 30vh;
 }
