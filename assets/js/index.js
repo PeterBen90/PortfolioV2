@@ -120,5 +120,5 @@ function onScroll(event) {
 AOS.init({
 	duration: 1000,
 	easing: "slide",
-	once: true,
+	once: false,
 });
