@@ -350,6 +350,10 @@ body {
 	.work {
 		margin-top: 100px !important;
 	}
+
+	.grid {
+		left: 0 !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -375,6 +379,10 @@ body {
 	.grid figure {
 		width: 100% !important;
 	}
+
+	.grid {
+		left: 12%;
+	}
 }
 
 .logo {
@@ -387,17 +395,16 @@ body {
 
 .about {
 	text-align: center;
-	height: 105vh;
+	height: 100%;
 	width: 100%;
 	margin-top: 100px;
 }
 
 .work {
 	text-align: center;
-	height: 105vh;
+	height: 100%;
 	width: 100%;
-	margin-top: 10px;
-	margin-bottom: 200px;
+	margin-top: 100px;
 }
 
 .me2 {
@@ -508,8 +515,8 @@ body {
 .grid {
 	position: relative;
 	margin: 0 auto;
-	padding: 1em 5.5em 4em;
-	max-width: 1200px;
+	padding: 1em 0em 4em;
+	max-width: 960px;
 	list-style: none;
 	text-align: center;
 }
