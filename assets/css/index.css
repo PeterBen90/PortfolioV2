@@ -208,7 +208,7 @@ body {
 
 .nav li a {
 	color: white;
-	font-size: 20px;
+	font-size: 18px;
 	text-decoration: none;
 }
 
@@ -267,9 +267,9 @@ body {
 .change-bg {
 	width: 520px;
 	height: 460px;
-	transform: translate(60%, -30%);
-	-webkit-transform: translate(60%, -30%);
-	-moz-transform: translate(60%, -30%);
+	transform: translate(60%, -26%);
+	-webkit-transform: translate(60%, -26%);
+	-moz-transform: translate(60%, -26%);
 }
 
 /* Additional Styles */
@@ -337,23 +337,8 @@ body {
 		font-size: 30px !important;
 	}
 
-	.grid {
-		padding: 1em 0em 0em 0em !important;
-		max-width: 1000px !important;
-		margin-right: 40px !important;
-	}
-
 	.about {
 		margin-top: 100px !important;
-	}
-
-	.work {
-		margin-top: 100px !important;
-		height: 100% !important;
-	}
-
-	.grid {
-		left: 0 !important;
 	}
 }
 
@@ -375,18 +360,6 @@ body {
 		margin-top: 50px !important;
 		margin-left: 5% !important;
 		margin-right: 5% !important;
-	}
-
-	.grid figure {
-		width: 100% !important;
-	}
-
-	.grid {
-		left: 12%;
-	}
-
-	.work {
-		height: 100% !important;
 	}
 }
 
