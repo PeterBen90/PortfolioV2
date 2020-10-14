@@ -102,18 +102,25 @@ $(document).ready(function () {
 
 function onScroll(event) {
 	var scrollPos = $(document).scrollTop();
-	$("#main a").each(function () {
+	$("#nav a").each(function () {
 		var currLink = $(this);
 		var refElement = $(currLink.attr("href"));
-		if (
-			refElement.position().top <= scrollPos &&
-			refElement.position().top + refElement.height() > scrollPos
-		) {
-			$("#nav ul li a").removeClass("active");
-			currLink.addClass("active");
-		} else {
-			currLink.removeClass("active");
+		try {
+			if (
+				refElement.position().top <= scrollPos &&
+				refElement.position().top + refElement.height() > scrollPos
+			) {
+				$("#nav ul li a").removeClass("active");
+				currLink.addClass("active");
+			} else {
+				currLink.removeClass("active");
+			}
+		} catch (e) {
+			function stoperror() {
+				return true;
+			}
 		}
+		window.onerror = stoperror;
 	});
 }
 
