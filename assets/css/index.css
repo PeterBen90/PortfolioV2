@@ -568,3 +568,9 @@ body {
 	font-size: 15px;
 	font-weight: 400;
 }
+
+.work-sub {
+	margin-top: 100px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
