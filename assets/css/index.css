@@ -552,7 +552,7 @@ body {
 	left: 170%;
 	top: 0;
 	transform: skewX(45deg);
-	transition: all 0.1s ease 0s;
+	transition: all 0.7s ease 0s;
 	background-color: #ffc300;
 	z-index: 1;
 }
