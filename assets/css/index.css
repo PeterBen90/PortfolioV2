@@ -345,10 +345,6 @@ body {
 		font-size: 20px !important;
 	}
 
-	.work-sub {
-		margin-top: 80px !important;
-	}
-
 	.text-btn {
 		font-size: 20px !important;
 	}
@@ -597,7 +593,7 @@ body {
 }
 
 .work-sub {
-	margin-top: 100px;
+	margin-top: 80px;
 	font-weight: bold;
 	letter-spacing: 2px;
 }
