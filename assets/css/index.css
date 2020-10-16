@@ -348,6 +348,10 @@ body {
 	.work-sub {
 		margin-top: 80px !important;
 	}
+
+	.text-btn {
+		font-size: 20px !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -484,7 +488,7 @@ body {
 }
 
 .text-btn {
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
 	text-decoration: none;
 	color: black;
@@ -580,9 +584,5 @@ body {
 .work-sub {
 	margin-top: 100px;
 	font-weight: bold;
-	letter-spacing: 3px;
-}
-
-.section-title {
-	text-decoration: underline;
+	letter-spacing: 2px;
 }
