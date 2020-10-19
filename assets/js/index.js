@@ -77,9 +77,9 @@ $(document).ready(function () {
 		$(document).off("scroll");
 
 		$("a").each(function () {
-			$(this).removeClass("active");
+			$(this).removeClass("is-active");
 		});
-		$(this).addClass("active");
+		$(this).addClass("is-active");
 
 		var target = this.hash,
 			menu = target;
@@ -110,10 +110,10 @@ function onScroll(event) {
 				refElement.position().top <= scrollPos &&
 				refElement.position().top + refElement.height() > scrollPos
 			) {
-				$("#nav ul li a").removeClass("active");
-				currLink.addClass("active");
+				$("#nav ul li a").removeClass("is-active");
+				currLink.addClass("is-active");
 			} else {
-				currLink.removeClass("active");
+				currLink.removeClass("is-active");
 			}
 		} catch (e) {
 			function stoperror() {
@@ -125,7 +125,76 @@ function onScroll(event) {
 }
 
 AOS.init({
-	duration: 1200,
+	duration: 800,
 	easing: "slide",
 	once: true,
 });
+
+// Testimonials
+
+var siteCarousel = function () {
+	$(".slide-one-item").owlCarousel({
+		center: false,
+		items: 1,
+		loop: true,
+		stagePadding: 0,
+		margin: 0,
+		autoplay: true,
+		pauseOnHover: true,
+		smartSpeed: 1000,
+		nav: true,
+		navText: [
+			'<span class="icon-keyboard_arrow_left">',
+			'<span class="icon-keyboard_arrow_right">',
+		],
+	});
+
+	$(".slide-one-item-alt").owlCarousel({
+		center: false,
+		items: 1,
+		loop: true,
+		stagePadding: 0,
+		margin: 0,
+		smartSpeed: 1000,
+		autoplay: true,
+		pauseOnHover: true,
+		onDragged: function (event) {
+			console.log("event : ", event.relatedTarget["_drag"]["direction"]);
+			if (event.relatedTarget["_drag"]["direction"] == "left") {
+				$(".slide-one-item-alt-text").trigger("next.owl.carousel");
+			} else {
+				$(".slide-one-item-alt-text").trigger("prev.owl.carousel");
+			}
+		},
+	});
+	$(".slide-one-item-alt-text").owlCarousel({
+		center: false,
+		items: 1,
+		loop: true,
+		stagePadding: 0,
+		margin: 0,
+		smartSpeed: 1000,
+		autoplay: true,
+		pauseOnHover: true,
+		onDragged: function (event) {
+			console.log("event : ", event.relatedTarget["_drag"]["direction"]);
+			if (event.relatedTarget["_drag"]["direction"] == "left") {
+				$(".slide-one-item-alt").trigger("next.owl.carousel");
+			} else {
+				$(".slide-one-item-alt").trigger("prev.owl.carousel");
+			}
+		},
+	});
+
+	$(".custom-next").click(function (e) {
+		e.preventDefault();
+		$(".slide-one-item-alt").trigger("next.owl.carousel");
+		$(".slide-one-item-alt-text").trigger("next.owl.carousel");
+	});
+	$(".custom-prev").click(function (e) {
+		e.preventDefault();
+		$(".slide-one-item-alt").trigger("prev.owl.carousel");
+		$(".slide-one-item-alt-text").trigger("prev.owl.carousel");
+	});
+};
+siteCarousel();
