@@ -125,9 +125,9 @@ function onScroll(event) {
 }
 
 AOS.init({
-	duration: 800,
+	duration: 500,
 	easing: "slide",
-	once: true,
+	once: false,
 });
 
 // Testimonials

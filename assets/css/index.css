@@ -427,6 +427,13 @@ body {
 	border-bottom: solid 2px #eaeaea;
 }
 
+/* .contact {
+	background-image: url("/assets/images/pond-img.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+
 .me2 {
 	width: 500px;
 	height: auto;
