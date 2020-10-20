@@ -20,14 +20,14 @@ body {
 	min-height: calc(var(--vh, 1vh) * 100);
 	background-color: var(--bgColor);
 	border-bottom: solid 2px #eaeaea;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Poppins-bold", sans-serif !important;
 }
 
 .flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: "Poppins", sans-serif;
+	font-family: "Poppins-bold", sans-serif;
 }
 
 .box {
@@ -45,7 +45,7 @@ body {
 	-moz-transform: translateY(200px) rotate(15deg);
 	animation: slideup 1000ms cubic-bezier(0.65, 0, 0.35, 1) 1 forwards;
 	transform-origin: top center;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Poppins-bold", sans-serif !important;
 }
 
 @keyframes slideup {
@@ -452,7 +452,7 @@ body {
 	font-weight: bold;
 	font-size: 3rem;
 	letter-spacing: 5px;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Poppins-bold", sans-serif !important;
 }
 
 .flexbox {
@@ -607,7 +607,7 @@ body {
 	margin-top: 80px;
 	font-weight: bold;
 	letter-spacing: 2px;
-	font-family: "Poppins", sans-serif !important;
+	font-family: "Poppins-bold", sans-serif !important;
 }
 
 /* Button Hover */
