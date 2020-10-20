@@ -712,3 +712,49 @@ body {
 	margin-right: 20px;
 	margin-bottom: 15px;
 }
+
+.send-icn {
+	fill: black;
+	margin-top: 30px;
+}
+
+.send-icn:hover {
+	fill: grey;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+button {
+	background: none;
+	border: none;
+	outline: none;
+	margin: 2vmax;
+	outline: 0 !important;
+}
+
+button:focus {
+	outline: 0 !important;
+}
+
+button:hover small {
+	opacity: 1;
+}
+
+small {
+	display: block;
+	opacity: 0;
+}
+
+.form-control {
+	border-radius: 0 !important;
+	border: 3px solid black !important;
+}
+
+.form-control:focus {
+	border-color: #ffc300 !important;
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8 !important;
+}
+
+.contact-form {
+	margin-top: 60px;
+}
