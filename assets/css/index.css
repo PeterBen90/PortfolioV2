@@ -20,12 +20,14 @@ body {
 	min-height: calc(var(--vh, 1vh) * 100);
 	background-color: var(--bgColor);
 	border-bottom: solid 2px #eaeaea;
+	font-family: "Poppins", sans-serif !important;
 }
 
 .flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-family: "Poppins", sans-serif;
 }
 
 .box {
@@ -449,6 +451,7 @@ body {
 	font-weight: bold;
 	font-size: 3rem;
 	letter-spacing: 5px;
+	font-family: "Poppins", sans-serif !important;
 }
 
 .flexbox {
@@ -603,6 +606,7 @@ body {
 	margin-top: 80px;
 	font-weight: bold;
 	letter-spacing: 2px;
+	font-family: "Poppins", sans-serif !important;
 }
 
 /* Button Hover */
