@@ -127,7 +127,7 @@ function onScroll(event) {
 AOS.init({
 	duration: 500,
 	easing: "slide",
-	once: false,
+	once: true,
 });
 
 // Testimonials
