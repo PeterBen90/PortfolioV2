@@ -280,117 +280,6 @@ body {
 
 /* Additional Styles */
 
-@media (max-width: 520px) {
-	.change-bg {
-		width: 450px;
-		height: 420px;
-	}
-
-	.nav li a {
-		font-size: 15px;
-	}
-
-	.logo {
-		height: 80px !important;
-	}
-
-	.me2 {
-		width: 300px !important;
-		height: auto;
-	}
-
-	#menu-bar {
-		height: 30px;
-		width: 35px;
-	}
-
-	.section-title {
-		font-size: 2rem !important;
-	}
-
-	.about {
-		margin-top: 80px !important;
-	}
-
-	.flexbox div img {
-		width: 100%;
-		height: 50px !important;
-		width: auto;
-	}
-
-	.icon-text {
-		font-weight: 600;
-		letter-spacing: 2px;
-		font-size: 10px;
-	}
-
-	.flexbox {
-		margin-top: 35px !important;
-		margin-left: 5% !important;
-		margin-right: 5% !important;
-	}
-
-	.intro-text,
-	.intro-text2 {
-		font-size: 20px !important;
-	}
-
-	.intro-text2 {
-		margin-top: 0 !important;
-	}
-
-	.diff-text {
-		font-size: 30px !important;
-	}
-
-	.about {
-		margin-top: 100px !important;
-	}
-
-	.sub-header {
-		font-size: 20px !important;
-	}
-
-	.text-btn {
-		font-size: 20px !important;
-	}
-
-	.underline {
-		margin-left: 41% !important;
-		margin-right: 41% !important;
-	}
-
-	.testimonial blockquote {
-		font-size: 18px !important;
-	}
-}
-
-@media (max-width: 768px) {
-	.nav li a {
-		font-size: 15px;
-	}
-
-	.logo {
-		height: 80px !important;
-	}
-
-	#menu-bar {
-		height: 30px;
-		width: 35px;
-	}
-
-	.flexbox {
-		margin-top: 35px !important;
-		margin-left: 5% !important;
-		margin-right: 5% !important;
-	}
-
-	.underline {
-		margin-left: 41% !important;
-		margin-right: 41% !important;
-	}
-}
-
 .logo {
 	height: 90px;
 	margin-bottom: -80px;
@@ -726,7 +615,7 @@ body {
 }
 
 .send-icn:hover {
-	fill: rgb(116, 114, 114);
+	fill: #ffc300;
 	cursor: pointer;
 	transition: all 0.4s ease;
 }
@@ -764,4 +653,117 @@ small {
 
 .contact-form {
 	margin-top: 60px;
+}
+
+/* Media Queries */
+
+@media (max-width: 520px) {
+	.change-bg {
+		width: 450px;
+		height: 420px;
+	}
+
+	.nav li a {
+		font-size: 15px;
+	}
+
+	.logo {
+		height: 80px !important;
+	}
+
+	.me2 {
+		width: 300px !important;
+		height: auto;
+	}
+
+	#menu-bar {
+		height: 30px;
+		width: 35px;
+	}
+
+	.section-title {
+		font-size: 2rem !important;
+	}
+
+	.about {
+		margin-top: 80px !important;
+	}
+
+	.flexbox div img {
+		width: 100%;
+		height: 50px !important;
+		width: auto;
+	}
+
+	.icon-text {
+		font-weight: 600;
+		letter-spacing: 2px;
+		font-size: 10px;
+	}
+
+	.flexbox {
+		margin-top: 35px !important;
+		margin-left: 5% !important;
+		margin-right: 5% !important;
+	}
+
+	.intro-text,
+	.intro-text2 {
+		font-size: 20px !important;
+	}
+
+	.intro-text2 {
+		margin-top: 0 !important;
+	}
+
+	.diff-text {
+		font-size: 30px !important;
+	}
+
+	.about {
+		margin-top: 100px !important;
+	}
+
+	.sub-header {
+		font-size: 20px !important;
+	}
+
+	.text-btn {
+		font-size: 20px !important;
+	}
+
+	.underline {
+		margin-left: 41% !important;
+		margin-right: 41% !important;
+	}
+
+	.testimonial blockquote {
+		font-size: 18px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.nav li a {
+		font-size: 15px;
+	}
+
+	.logo {
+		height: 80px !important;
+	}
+
+	#menu-bar {
+		height: 30px;
+		width: 35px;
+	}
+
+	.flexbox {
+		margin-top: 35px !important;
+		margin-left: 5% !important;
+		margin-right: 5% !important;
+	}
+
+	.underline {
+		margin-left: 41% !important;
+		margin-right: 41% !important;
+	}
 }
