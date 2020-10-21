@@ -781,6 +781,10 @@ small {
 	.fa-chevron-up {
 		display: none !important;
 	}
+
+	.foot {
+		text-decoration: underline !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -827,7 +831,6 @@ footer {
 	font-family: "Poppins-bold", sans-serif !important;
 	letter-spacing: 2px;
 	font-size: 30px;
-	/* text-decoration: underline; */
 }
 
 footer .underline {
