@@ -338,11 +338,6 @@ body {
 	z-index: 3;
 }
 
-.header-logo {
-	position: fixed;
-	z-index: 2;
-}
-
 .hidden {
 	display: none;
 }
@@ -668,7 +663,7 @@ small {
 	}
 
 	.logo {
-		height: 80px !important;
+		height: 150px !important;
 	}
 
 	.me2 {
@@ -792,10 +787,6 @@ small {
 		font-size: 15px;
 	}
 
-	.logo {
-		height: 80px !important;
-	}
-
 	#menu-bar {
 		height: 30px;
 		width: 35px;
@@ -819,7 +810,6 @@ small {
 
 footer {
 	background: #f6f6f6;
-	padding-top: 7%;
 	padding-bottom: 7%;
 	width: 100%;
 	height: 100%;
@@ -834,7 +824,7 @@ footer {
 }
 
 footer .underline {
-	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 .hover-fx {
@@ -937,4 +927,11 @@ footer .underline {
 	cursor: pointer;
 	animation-name: bounce;
 	-moz-animation-name: bounce;
+}
+
+.logo {
+	height: 280px;
+	width: auto;
+	/* margin-top: -50px; */
+	margin-bottom: 10px;
 }
