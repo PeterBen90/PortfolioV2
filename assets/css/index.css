@@ -774,7 +774,7 @@ small {
 	}
 
 	.fa-coffee,
-	.fa-heart {
+	.fa-js {
 		font-size: 20px !important;
 	}
 
@@ -880,8 +880,9 @@ footer .underline {
 }
 
 .fa-coffee,
-.fa-heart {
+.fa-js {
 	font-size: 25px;
+	margin: 2px;
 }
 
 .copyright {
