@@ -742,7 +742,7 @@ small {
 	.foot {
 		font-family: "Poppins-bold", sans-serif !important;
 		letter-spacing: 2px;
-		font-size: 18px !important;
+		font-size: 16px !important;
 	}
 
 	footer {
@@ -819,11 +819,7 @@ footer {
 .foot {
 	font-family: "Poppins-bold", sans-serif !important;
 	letter-spacing: 2px;
-	font-size: 30px;
-}
-
-footer .underline {
-	margin-bottom: 40px;
+	font-size: 25px;
 }
 
 .hover-fx {
