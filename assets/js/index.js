@@ -59,6 +59,13 @@ function menuOnClick() {
 	document.getElementById("menu-items").classList.toggle("hidden");
 }
 
+function menuOnClickTwo() {
+	document.getElementById("menu-bar2").classList.toggle("change");
+	document.getElementById("nav2").classList.toggle("change");
+	document.getElementById("menu-bg2").classList.toggle("change-bg");
+	document.getElementById("menu-items2").classList.toggle("hidden");
+}
+
 //Viewheight Fix
 
 // First we get the viewport height and we multiple it by 1% to get a value for a vh unit

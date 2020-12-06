@@ -479,7 +479,7 @@ body {
 	transition: all 0.5s ease 0s;
 }
 .boxy:hover .box-content {
-	bottom: 30%;
+	bottom: 35%;
 }
 .boxy .box-content .name {
 	font-size: 22px;
@@ -778,6 +778,15 @@ small {
 	.foot {
 		text-decoration: underline !important;
 	}
+
+	.boxy:hover .box-content {
+		bottom: 30% !important;
+	}
+
+	.logo {
+		height: 80px !important;
+		width: auto !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -881,7 +890,7 @@ footer {
 	position: relative;
 	margin-right: 5%;
 	bottom: 50px;
-	font-size: 60px;
+	font-size: 50px;
 	color: black;
 }
 
@@ -923,8 +932,211 @@ footer {
 	-moz-animation-name: bounce;
 }
 
+/* -------------------------- ZENFIT STYLES ------------------------------ */
+
 .logo {
-	height: 280px;
+	height: 100px;
 	width: auto;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
+	margin-top: 80px;
+}
+
+.back-btn {
+	font-size: 20px !important;
+	cursor: pointer;
+	background-color: #111;
+	color: white !important;
+	padding: 15px 20px !important;
+	position: relative;
+	top: 25px;
+	margin-left: 15px;
+	border: none;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+
+.back-btn:hover {
+	background-color: #444;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.fa-arrow-left {
+	margin-right: 8px;
+}
+
+/* Zenfit Menu */
+
+#menu2 {
+	z-index: 5;
+}
+
+#menu-bar2 {
+	width: 45px;
+	height: 40px;
+	margin: 30px 20px 0 80px;
+	cursor: pointer;
+}
+
+.bar {
+	height: 5px;
+	width: 100%;
+	background-color: #000000;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+
+#bar1 {
+	transform: translateY(-4px);
+}
+
+#bar3 {
+	transform: translateY(4px);
+}
+
+.nav {
+	transition: 0.3s ease;
+	display: none;
+}
+
+.nav li {
+	list-style: none;
+	padding: 10px 0;
+	text-align: right;
+}
+
+.nav li a {
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	color: #ffc300;
+	transition: all 0.8s;
+}
+
+.is-active {
+	color: #ffc300 !important;
+	transition: all 0.8s;
+}
+
+.menu-bg2,
+#menu2 {
+	top: 0;
+	right: 0;
+	position: fixed;
+}
+
+.menu-bg {
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	/* background: radial-gradient(circle, #000000, #000000); */
+	background: radial-gradient(circle, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+	border-radius: 50%;
+	transition: 0.3s ease;
+	transform: translate(60%, -26%);
+	-webkit-transform: translate(60%, -26%);
+	-moz-transform: translate(60%, -26%);
+	box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.change {
+	display: block;
+}
+
+.change .bar {
+	background-color: white;
+}
+
+.change #bar1 {
+	transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+	opacity: 0;
+}
+
+.change #bar3 {
+	transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+	width: 520px;
+	height: 460px;
+	transform: translate(60%, -26%);
+	-webkit-transform: translate(60%, -26%);
+	-moz-transform: translate(60%, -26%);
+}
+
+.zenfit-logo {
+	/* padding: 100px; */
+	width: 400px;
+	height: auto;
+	margin-top: 30%;
+}
+
+#home-section {
+	height: 100%;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.zenfit-sub {
+	margin-top: 30px;
+}
+
+.proto-btn {
+	font-size: 20px !important;
+	cursor: pointer;
+	background-color: #397a8e;
+	color: white !important;
+	padding: 15px 20px !important;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	top: 30px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3) !important;
+	transition: all 0.5s;
+}
+
+.proto-btn:hover {
+	background-color: #29515e;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.mock {
+	height: 600px;
+	width: auto;
+}
+
+@media (max-width: 520px) {
+	.zenfit-logo {
+		width: 80%;
+		height: auto;
+	}
+
+	.mock {
+		height: auto;
+		width: 100%;
+		margin-top: 100px;
+	}
+
+	#home-section {
+		margin-top: 0;
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	.mock {
+		height: auto;
+		width: 100%;
+		margin-top: 100px;
+	}
 }
