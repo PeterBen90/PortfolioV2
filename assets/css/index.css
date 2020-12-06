@@ -390,7 +390,7 @@ body {
 
 .intro-text2 {
 	margin-top: 60px;
-	color: #9b9ba3;
+	color: #7d7d80;
 }
 
 .footer h3 {
@@ -421,7 +421,7 @@ body {
 	margin-bottom: 50px;
 	margin-left: 20px;
 	margin-right: 20px;
-	color: #9b9ba3;
+	color: #7d7d80;
 }
 
 /* effects */
@@ -652,6 +652,10 @@ small {
 /* Media Queries */
 
 @media (max-width: 520px) {
+	.work-sub {
+		font-size: 1.3rem !important;
+	}
+
 	.change-bg {
 		width: 450px;
 		height: 420px;
