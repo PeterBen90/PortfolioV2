@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="467px" height="467px" viewBox="0 0 467 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>scale-tile</title>
+    <g id="Case-Study-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-969.000000, -3053.000000)">
+            <g id="scale-tile" transform="translate(969.000000, 3053.000000)">
+                <rect id="Rectangle-Copy-4" fill="#FFFFFF" x="0" y="0" width="467" height="467"></rect>
+                <g id="noun_Scale_3259218" transform="translate(154.000000, 154.000000)" fill="#000000" fill-rule="nonzero">
+                    <g id="Group">
+                        <path d="M141.964286,-2.5217923e-15 L17.0357143,-2.5217923e-15 C7.62714908,-2.5217923e-15 -2.5217923e-15,7.62714908 -2.5217923e-15,17.0357143 L-2.5217923e-15,141.964286 C-2.5217923e-15,151.372851 7.62714908,159 17.0357143,159 L141.964286,159 C151.372851,159 159,151.372851 159,141.964286 L159,17.0357143 C159,7.62714908 151.372851,-2.5217923e-15 141.964286,-2.5217923e-15 Z M147.642857,141.964286 C147.642857,145.100474 145.100474,147.642857 141.964286,147.642857 L17.0357143,147.642857 C13.8995259,147.642857 11.3571429,145.100474 11.3571429,141.964286 L11.3571429,17.0357143 C11.3571429,13.8995259 13.8995259,11.3571429 17.0357143,11.3571429 L141.964286,11.3571429 C145.100474,11.3571429 147.642857,13.8995259 147.642857,17.0357143 L147.642857,141.964286 Z" id="Shape"></path>
+                        <path d="M79.5,22.7142857 C54.4104928,22.7142857 34.0714286,43.0533499 34.0714286,68.1428571 C34.0714286,71.2790455 36.6138116,73.8214286 39.75,73.8214286 L119.25,73.8214286 C122.386188,73.8214286 124.928571,71.2790455 124.928571,68.1428571 C124.928571,43.0533499 104.589507,22.7142857 79.5,22.7142857 Z M85.1785714,62.4642857 L85.1785714,51.1071429 C85.1785714,47.9709545 82.6361884,45.4285714 79.5,45.4285714 C76.3638116,45.4285714 73.8214286,47.9709545 73.8214286,51.1071429 L73.8214286,62.4642857 L45.9396429,62.4642857 C48.7952331,46.1635863 62.9510665,34.27203 79.5,34.27203 C96.0489335,34.27203 110.204767,46.1635863 113.060357,62.4642857 L85.1785714,62.4642857 Z" id="Shape"></path>
+                    </g>
+                </g>
+                <text id="Physical-Changes-of" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="30" font-weight="bold" fill="#000000">
+                    <tspan x="87.955" y="73">Physical Changes of </tspan>
+                    <tspan x="169.87" y="109">the Body</tspan>
+                </text>
+                <text id="Insight:-People-in-i" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="65.34" y="371">Insight</tspan>
+                    <tspan x="130.12" y="371" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">: </tspan>
+                    <tspan x="141.24" y="371" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">People in isolation tend to be </tspan>
+                    <tspan x="64.04" y="395" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">less active, leading to visible, physical </tspan>
+                    <tspan x="192.75" y="418" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">changes.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

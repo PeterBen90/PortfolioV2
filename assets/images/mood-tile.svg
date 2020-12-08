@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="467px" height="467px" viewBox="0 0 467 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mood-tile</title>
+    <g id="Case-Study-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-267.000000, -2266.000000)">
+            <g id="mood-tile" transform="translate(267.000000, 2266.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="467" height="467"></rect>
+                <g id="noun_Unhappy_2546483" transform="translate(154.000000, 154.000000)" fill="#000000" fill-rule="nonzero">
+                    <g id="Group">
+                        <path d="M125.28207,0.101816131 L33.4832171,0.101816131 C15.1234466,0.101816131 0.101816131,15.1234466 0.101816131,33.4832171 L0.101816131,125.28207 C0.101816131,143.64184 15.1234466,158.663471 33.4832171,158.663471 L125.28207,158.663471 C143.64184,158.663471 158.663471,143.64184 158.663471,125.28207 L158.663471,33.4832171 C158.663471,15.1234466 143.64184,0.101816131 125.28207,0.101816131 Z M143.64184,125.28207 C143.64184,135.29649 135.463397,143.64184 125.28207,143.64184 L33.4832171,143.64184 C23.4687968,143.64184 15.1234466,135.463397 15.1234466,125.28207 L15.1234466,33.4832171 C15.1234466,23.4687968 23.3018898,15.1234466 33.4832171,15.1234466 L125.28207,15.1234466 C135.29649,15.1234466 143.64184,23.3018898 143.64184,33.4832171 L143.64184,125.28207 Z" id="Shape"></path>
+                        <path d="M79.3826435,87.5610868 C65.1955481,87.5610868 52.1768017,95.73953 45.8343355,108.424462 C43.9983584,112.096416 45.5005215,116.602906 49.3393826,118.438883 C53.0113367,120.27486 57.5178259,118.772697 59.3538029,114.933836 C63.025757,107.256113 70.7034793,102.582717 79.2157365,102.582717 C87.7279938,102.582717 95.405716,107.256113 99.0776701,114.933836 C100.412926,117.604348 103.083438,119.106511 105.920857,119.106511 C107.089206,119.106511 108.090648,118.939604 109.258997,118.271976 C112.930952,116.435999 114.600022,111.929509 112.764045,108.257555 C106.588485,95.73953 93.5697389,87.5610868 79.3826435,87.5610868 Z" id="Path"></path>
+                        <path d="M66.5308041,59.6876169 C66.5308041,51.8429877 60.1883379,45.5005215 52.3437087,45.5005215 C44.4990795,45.5005215 38.1566133,51.8429877 38.1566133,59.6876169 C38.1566133,67.5322462 44.4990795,73.8747123 52.3437087,73.8747123 C60.1883379,73.8747123 66.5308041,67.5322462 66.5308041,59.6876169 Z" id="Path"></path>
+                        <circle id="Oval" cx="106.254671" cy="59.6876169" r="14.1870954"></circle>
+                    </g>
+                </g>
+                <text id="State-of-Low-Mood" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="30" font-weight="bold" fill="#000000">
+                    <tspan x="97.445" y="109">State of Low Mood</tspan>
+                </text>
+                <text id="Insight:-People-who" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="70.92" y="371">Insight</tspan>
+                    <tspan x="135.7" y="371" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">: </tspan>
+                    <tspan x="146.82" y="371" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">People who are in a state of </tspan>
+                    <tspan x="69.03" y="395" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">isolation tend to be more lethargic or </tspan>
+                    <tspan x="191.81" y="418" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">unhappy.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

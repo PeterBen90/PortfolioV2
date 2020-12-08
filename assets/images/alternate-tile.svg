@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="467px" height="467px" viewBox="0 0 467 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>alternate-tile</title>
+    <g id="Case-Study-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-960.000000, -2266.000000)">
+            <g id="alternate-tile" transform="translate(960.000000, 2266.000000)">
+                <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="0" y="0" width="467" height="467"></rect>
+                <g id="noun_glove-boxing_2217836" transform="translate(154.000000, 154.000000)" fill="#000000" fill-rule="nonzero">
+                    <path d="M120.94297,0.0493242897 L64.6079699,0.0493242897 C44.7671532,-0.951077926 27.7828416,13.3857496 26.55094,32.1740924 L26.55094,33.5126244 L27.6105324,41.8784495 L26.0211437,41.8784495 C11.0522112,42.55634 -0.537943757,54.545758 0.0611279492,68.7327478 L0.0611279492,78.9390544 C-1.24301626,103.328745 18.4770938,124.142272 44.2108146,125.5367 L44.2108146,139.507628 C43.7972069,144.31699 45.430999,149.083314 48.7482067,152.744736 C52.0654144,156.406157 56.7904652,158.658509 61.8706893,159 L123.680251,159 C128.760475,158.658509 133.485526,156.406157 136.802733,152.744736 C140.119941,149.083314 141.753733,144.31699 141.340125,139.507628 L141.340125,125.5367 C145.93895,125.187033 149.478453,121.541966 149.463668,117.170875 L149.463668,117.170875 L159,33.5126244 L159,32.1740924 C157.768098,13.3857496 140.783787,-0.951077926 120.94297,0.0493242897 Z M17.7210026,78.9390544 L17.7210026,68.7327478 C17.1919178,63.8002846 20.8458763,59.3440066 26.0211437,58.6100996 L29.4648193,58.6100996 L34.8510811,106.797252 C23.9338672,101.43256 17.2623217,90.5828003 17.7210026,78.9390544 L17.7210026,78.9390544 Z M123.680251,139.507628 C123.719904,140.483248 123.442513,141.446889 122.885556,142.26835 L62.6653837,142.26835 C62.1084271,141.446889 61.8310359,140.483248 61.8706893,139.507628 L61.8706893,125.5367 L123.680251,125.5367 L123.680251,139.507628 Z M132.510188,108.80505 L53.8354463,108.80505 C53.040752,108.80505 53.040752,108.80505 53.040752,108.80505 L53.040752,108.80505 L44.2108146,31.8394594 C45.7528686,22.5081799 54.6808249,15.9169914 64.6079699,16.7809744 L120.94297,16.7809744 C130.870115,15.9169914 139.798071,22.5081799 141.340125,31.8394594 L132.510188,108.80505 Z" id="Shape"></path>
+                </g>
+                <text id="Interest-in-Alternat" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="30" font-weight="bold" fill="#000000">
+                    <tspan x="92.14" y="73">Interest in Alternate</tspan>
+                    <tspan x="52.69" y="109">Types of Physical Fitness</tspan>
+                </text>
+                <text id="Insight:-Most-indivi" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="57.2" y="371">Insight</tspan>
+                    <tspan x="121.98" y="371" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="400">: </tspan>
+                    <tspan x="133.1" y="371" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">Most individual prefer alternate </tspan>
+                    <tspan x="65.51" y="395" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">types of fitness that allow them to get </tspan>
+                    <tspan x="50.16" y="418" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">away and enjoy the actvities with friends.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

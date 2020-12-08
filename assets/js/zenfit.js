@@ -1,7 +1,22 @@
+// Menu
+
+function menuOnClickTwo() {
+	document.getElementById("menu-bar2").classList.toggle("change");
+	document.getElementById("nav2").classList.toggle("change");
+	document.getElementById("menu-bg2").classList.toggle("change-bg");
+	document.getElementById("menu-items2").classList.toggle("hidden");
+}
+
+AOS.init({
+	duration: 500,
+	easing: "slide",
+	once: true,
+});
+
 // Zenfit Navbar active class and smooth scroll
 
 $(document).ready(function () {
-	$(document).on("scroll", onScroll);
+	$(document).on("scroll", onScroll2);
 
 	//smoothscroll
 	$('a[href^="#"]').on("click", function (e) {
@@ -9,12 +24,12 @@ $(document).ready(function () {
 		$(document).off("scroll");
 
 		$("a").each(function () {
-			$(this).removeClass("is-active");
+			$(this).removeClass("is-active2");
 		});
-		$(this).addClass("is-active");
+		$(this).addClass("is-active2");
 
 		var target = this.hash,
-			menu = target;
+			menu2 = target;
 		$target = $(target);
 		$("html, body")
 			.stop()
@@ -26,13 +41,13 @@ $(document).ready(function () {
 				"swing",
 				function () {
 					window.location.hash = target;
-					$(document).on("scroll", onScroll);
+					$(document).on("scroll", onScroll2);
 				}
 			);
 	});
 });
 
-function onScroll(event) {
+function onScroll2(event) {
 	var scrollPos = $(document).scrollTop();
 	$("#nav2 a").each(function () {
 		var currLink = $(this);
@@ -42,10 +57,10 @@ function onScroll(event) {
 				refElement.position().top <= scrollPos &&
 				refElement.position().top + refElement.height() > scrollPos
 			) {
-				$("#nav2 ul li a").removeClass("is-active");
-				currLink.addClass("is-active");
+				$("#nav2 ul li a").removeClass("is-active2");
+				currLink.addClass("is-active2");
 			} else {
-				currLink.removeClass("is-active");
+				currLink.removeClass("is-active2");
 			}
 		} catch (e) {
 			function stoperror() {
@@ -99,9 +114,5 @@ $(document).ready(function () {
 		} else {
 			$("#scroll").fadeOut();
 		}
-	});
-	$("#scroll").click(function () {
-		$("html, body").animate({ scrollTop: 0 }, 600);
-		return false;
 	});
 });

@@ -956,7 +956,7 @@ footer {
 	color: #000;
 	padding: 10px 15px !important;
 	position: relative;
-	top: 25px;
+	top: -75px;
 	margin-left: 15px;
 	border: 5px solid #000;
 	transition: all 0.5s;
@@ -1025,12 +1025,12 @@ footer {
 	transition: all 0.8s;
 }
 
-.is-active {
+.is-active2 {
 	color: #ffc300 !important;
 	transition: all 0.8s;
 }
 
-.menu-bg2,
+.menu-bg,
 #menu2 {
 	top: 0;
 	right: 0;
@@ -1125,7 +1125,8 @@ footer {
 
 .discover,
 .design,
-.define {
+.define,
+.develop {
 	text-align: center;
 	height: 100%;
 	width: 100%;
@@ -1144,14 +1145,15 @@ footer {
 
 @media (max-width: 520px) {
 	.zenfit-logo {
-		width: 80%;
+		width: 60% !important;
 		height: auto;
 	}
 
 	.mock {
 		height: auto;
-		width: 100%;
+		width: 60% !important;
 		margin-top: 100px;
+		margin-left: 20%;
 	}
 
 	#home-section {
@@ -1189,6 +1191,28 @@ footer {
 
 	.comp-image {
 		margin-top: 50px !important;
+	}
+
+	.insights {
+		margin-top: 80px !important;
+	}
+
+	.secondary {
+		font-size: 1.3rem !important;
+	}
+
+	.icon-container,
+	.define {
+		margin-top: 80px !important;
+	}
+
+	.persona {
+		margin-top: 80px !important;
+	}
+
+	.back-btn {
+		position: relative;
+		top: 25px !important;
 	}
 }
 
@@ -1291,13 +1315,15 @@ footer {
 
 #discover-section,
 #process-section,
-#define-section {
+#define-section,
+#develop-section {
 	margin-top: 200px;
 }
 
 .prompt {
 	text-align: center;
 	font-size: 10px;
+	margin-top: 5px;
 }
 
 .details {
@@ -1393,7 +1419,8 @@ footer {
 	}
 }
 
-.market-research {
+.market-research,
+.persona {
 	margin-top: 200px;
 }
 
@@ -1414,9 +1441,7 @@ footer {
 	background-color: #000;
 	text-indent: -9999px;
 	display: none;
-	/* -webkit-border-radius: 60px;
-	-moz-border-radius: 60px;
-	border-radius: 60px; */
+	z-index: 99999999;
 	transition: all 0.5s;
 }
 #scroll span {
@@ -1436,4 +1461,48 @@ footer {
 	filter: "alpha(opacity=100)";
 	-ms-filter: "alpha(opacity=100)";
 	transition: all 0.5s;
+}
+
+.interview-notes {
+	height: auto;
+	width: 100%;
+	/* border: 1px solid #000; */
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+}
+
+.primary-research {
+	margin-top: 30px;
+}
+
+.define-text {
+	margin-bottom: 50px;
+}
+
+.themes {
+	width: 100%;
+	height: auto;
+}
+
+.tiles {
+	height: auto;
+	width: 100%;
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+	position: relative;
+	top: 0;
+	transition: ease 0.5s;
+}
+
+.tiles:hover {
+	top: -10px;
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3) !important;
+	transition: ease 0.5s;
+}
+
+.icon-container,
+.intervention {
+	margin-top: 100px;
+}
+
+.chosen {
+	border: 5px solid #397a8e;
 }
