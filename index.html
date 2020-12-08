@@ -4,14 +4,15 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Peter Benvenuto</title>
-		<link rel="shortcut icon" type="image/png" href="./assets/images/icon-logo.png">
-		<link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
-		<link rel="stylesheet" type="text/css" href="./assets/css/normalize.css" />
-		<link rel="stylesheet" href="./assets/css/animate.min.css" />
-		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="./assets/css/aos.css" />
-		<link rel="stylesheet" href="./assets/css/slick.css" />
-		<link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+		<link rel="shortcut icon" type="image/png" href="/assets/images/icon-logo.png">
+		<link rel="stylesheet" type="text/css" href="/assets/css/index.css" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+		<link rel="stylesheet" href="/assets/css/animate.min.css" />
+		<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="/assets/css/aos.css" />
+		<link rel="stylesheet" href="/assets/css/slick.css" />
+		<link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="/assets/css/jquery.fancybox.min.css">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
 		<script
 			src="https://kit.fontawesome.com/b5e8879712.js"
@@ -77,6 +78,8 @@
 						<p class="icon-text">Development</p>
 					</div>
 				</div>
+
+				<a href="#main" id="scroll" style="display: none;"><span></span></a>
 
 				<div class="container">
 					<div class="row">
@@ -251,11 +254,53 @@
 				
 			</section>
 
-			<section id="contact-section" class="contact">
+			<section data-aos="fade-up" data-aos-duration="1000" data-aos-offset="500" id="contact-section" class="contact">
 				<h2 class="section-title">LET'S CONNECT</h2>
 				<p class="underline">.</p>
 
-				<div class="container">
+				<a data-fancybox data-src="#hidden-content-2" href="javascript:;" class="modal-btn">Say Hello
+					<i class="fas fa-envelope-open-text"></i>
+				</a>
+				
+				<div style="display: none;" id="hidden-content-2">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 col-md-offset-2 m-auto">
+								<h2 class="form-title">Contact Me</h2>
+								<div class="contact-form">
+									<form name="contact" method="POST" data-netlify="true">
+										<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="name">Name</label>
+											<input type="name" name="name" class="form-control" id="name" required>
+										</div>
+										<div class="form-group col-md-6">
+											<label for="email">Email</label>
+											<input type="email" name="email" class="form-control" id="email" required>
+										</div>
+										</div>
+										<div class="form-group">
+										<label for="inputAddress">Subject</label>
+										<input type="subject" name="subject" class="form-control" id="subject" placeholder="" required>
+										</div>
+										<div class="form-group">
+											<label for="message">Message</label>
+											<textarea class="form-control" name="message" id="message" rows="10" placeholder="Say hi..." required></textarea>
+										</div>
+										<button type="submit">
+											<svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
+											<path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
+										l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
+											</svg>
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 m-auto">
 							<div data-aos="fade-up" data-aos-delay="100" data-aos-offset="500" class="contact-form">
@@ -288,7 +333,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				
 			</section>
 
@@ -307,22 +352,19 @@
 					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fas fa-coffee"></i> and <i class="fab fa-js"></i> by Peter Benvenuto.
 				  </div>
 				  
-				  <div class="chev">
-					<a href="#main" data-aos="fade-in" data-aos-delay="200" data-aos-once="false"><i class="fas fa-chevron-up"></i></a>
-				  </div>
-				  
 			</footer>
 		</div>
 	
 	  
 
-		<script src="./assets/js/jquery-1.12.4.min.js"></script>
-		<script src="./assets/js/bootstrap.min.js"></script>
-		<script src="./assets/js/wow.min.js"></script>
-		<script src="./assets/js/aos.js"></script>
-		<script src="./assets/js/slick.min.js"></script>
-		<script src="./assets/js/owl.carousel.min.js"></script>
-		<script src="./assets/js/parallax.min.js"></script>
+		<script src="/assets/js/jquery-1.12.4.min.js"></script>
+		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="/assets/js/wow.min.js"></script>
+		<script src="/assets/js/aos.js"></script>
+		<script src="/assets/js/slick.min.js"></script>
+		<script src="/assets/js/owl.carousel.min.js"></script>
+		<script src="/assets/js/parallax.min.js"></script>
+		<script src="/assets/js/jquery.fancybox.min.js"></script>
 
 		<script type="text/javascript" src="./assets/js/index.js"></script>
 		<script>

@@ -55,3 +55,53 @@ function onScroll(event) {
 		window.onerror = stoperror;
 	});
 }
+
+$(document).ready(function () {
+	$(".fancybox").fancybox();
+});
+
+var a = 0;
+var percent = "%";
+$(window).scroll(function () {
+	var oTop = $("#counter").offset().top - window.innerHeight;
+	if (a == 0 && $(window).scrollTop() > oTop) {
+		$(".counter-value").each(function () {
+			var $this = $(this),
+				countTo = $this.attr("data-count");
+			$({
+				countNum: $this.text(),
+			}).animate(
+				{
+					countNum: countTo,
+				},
+
+				{
+					duration: 7000,
+					easing: "swing",
+					step: function () {
+						$this.text(Math.floor(this.countNum) + percent);
+					},
+					complete: function () {
+						$this.text(this.countNum + percent);
+						//alert('finished');
+					},
+				}
+			);
+		});
+		a = 1;
+	}
+});
+
+$(document).ready(function () {
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			$("#scroll").fadeIn();
+		} else {
+			$("#scroll").fadeOut();
+		}
+	});
+	$("#scroll").click(function () {
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
+	});
+});

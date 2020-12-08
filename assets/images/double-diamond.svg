@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1161px" height="600px" viewBox="0 0 1161 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Double Diamond</title>
+    <g id="Case-Study-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-152.000000, -250.000000)">
+            <g id="Double-Diamond" transform="translate(152.000000, 250.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="1161" height="600"></rect>
+                <rect id="Rectangle" stroke="#397A8E" stroke-width="10" transform="translate(304.000000, 302.000000) rotate(-315.000000) translate(-304.000000, -302.000000) " x="109" y="107" width="390" height="390"></rect>
+                <rect id="Rectangle-Copy" stroke="#397A8E" stroke-width="10" transform="translate(853.685425, 302.000000) rotate(-315.000000) translate(-853.685425, -302.000000) " x="658.685425" y="107" width="390" height="390"></rect>
+                <line x1="303.5" y1="19.5" x2="303.5" y2="578.5" id="Line" stroke="#C5576B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6"></line>
+                <line x1="853.5" y1="25.5" x2="853.5" y2="584.5" id="Line" stroke="#C5576B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6"></line>
+                <g id="noun_lightbulb_3194358" transform="translate(811.000000, 254.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="86" height="96"></rect>
+                    <g id="Group" fill="#FFC300" fill-rule="nonzero">
+                        <path d="M44.2,17.2 C37,16.9 30.1,19.4 24.9,24.4 C19.7,29.4 16.8,36.1 16.8,43.3 C16.8,49.2 18.7,54.8 22.4,59.5 C25.6,63.6 27.8,67.5 29.2,71.6 L29.3,71.9 L29.3,82.4 C29.3,83.7 30.3,84.9 31.6,85.1 C32.1,90.9 37,95.5 43,95.5 C49,95.5 53.9,90.9 54.4,85 C55.7,84.8 56.7,83.7 56.7,82.3 L56.7,71.9 L56.8,71.6 C58.2,67.5 60.4,63.6 63.6,59.6 C67.5,54.7 69.5,48.5 69.2,42.3 C68.5,28.8 57.6,17.8 44.2,17.2 Z M51.2,73 L51.2,79.6 L34.8,79.6 L34.8,73 L51.2,73 Z M43,90 C40,90 37.6,87.8 37.1,85 L48.9,85 C48.4,87.9 46,90 43,90 Z M59.2,56.1 C56.2,59.9 54,63.6 52.4,67.5 L33.6,67.5 C32,63.7 29.8,59.9 26.8,56.1 C23.9,52.4 22.4,48 22.4,43.3 C22.4,37.6 24.7,32.3 28.8,28.3 C32.9,24.4 38.3,22.3 44.1,22.6 C54.7,23.1 63.3,31.8 63.8,42.3 C63.9,47.4 62.3,52.2 59.2,56.1 Z" id="Shape"></path>
+                        <path d="M43,11 C44.5,11 45.7,9.8 45.7,8.3 L45.7,3.2 C45.7,1.7 44.5,0.5 43,0.5 C41.5,0.5 40.3,1.7 40.3,3.2 L40.3,8.3 C40.3,9.8 41.5,11 43,11 Z" id="Path"></path>
+                        <path d="M23.1,14.4 C23.6,15.3 24.5,15.8 25.5,15.8 C26,15.8 26.4,15.7 26.9,15.4 C28.2,14.6 28.7,13 27.9,11.7 L25.4,7.3 C24.6,6 23,5.5 21.7,6.3 C20.4,7.1 19.9,8.7 20.7,10 L23.1,14.4 Z" id="Path"></path>
+                        <path d="M14,23.4 L9.6,20.9 C8.3,20.1 6.6,20.6 5.9,21.9 C5.1,23.2 5.6,24.9 6.9,25.6 L11.3,28.1 C11.7,28.3 12.2,28.5 12.7,28.5 C13.6,28.5 14.6,28 15.1,27.1 C15.8,25.9 15.3,24.2 14,23.4 Z" id="Path"></path>
+                        <path d="M10.7,43.3 C10.7,41.8 9.5,40.6 8,40.6 L2.9,40.6 C1.4,40.6 0.2,41.8 0.2,43.3 C0.2,44.8 1.4,46 2.9,46 L8,46 C9.5,46.1 10.7,44.8 10.7,43.3 Z" id="Path"></path>
+                        <path d="M11.3,58.5 L6.9,61 C5.6,61.8 5.1,63.4 5.9,64.7 C6.4,65.6 7.3,66.1 8.3,66.1 C8.8,66.1 9.2,66 9.7,65.7 L14.1,63.2 C15.4,62.4 15.9,60.8 15.1,59.5 C14.3,58.2 12.6,57.7 11.3,58.5 Z" id="Path"></path>
+                        <path d="M79.1,61 L74.7,58.5 C73.4,57.7 71.7,58.2 71,59.5 C70.2,60.8 70.7,62.5 72,63.2 L76.4,65.7 C76.8,65.9 77.3,66.1 77.8,66.1 C78.7,66.1 79.7,65.6 80.2,64.7 C80.8,63.4 80.4,61.8 79.1,61 Z" id="Path"></path>
+                        <path d="M83.1,40.6 L78,40.6 C76.5,40.6 75.3,41.8 75.3,43.3 C75.3,44.8 76.5,46 78,46 L83.1,46 C84.6,46 85.8,44.8 85.8,43.3 C85.8,41.8 84.6,40.6 83.1,40.6 Z" id="Path"></path>
+                        <path d="M73.3,28.5 C73.8,28.5 74.2,28.4 74.7,28.1 L79.1,25.6 C80.4,24.8 80.9,23.2 80.1,21.9 C79.3,20.6 77.7,20.1 76.4,20.9 L72,23.4 C70.7,24.2 70.2,25.8 71,27.1 C71.5,28.1 72.4,28.5 73.3,28.5 Z" id="Path"></path>
+                        <path d="M59.1,15.4 C59.5,15.6 60,15.8 60.5,15.8 C61.4,15.8 62.4,15.3 62.9,14.4 L65.4,10 C66.2,8.7 65.7,7 64.4,6.3 C63.1,5.5 61.4,6 60.7,7.3 L58.2,11.7 C57.4,12.9 57.8,14.6 59.1,15.4 Z" id="Path"></path>
+                    </g>
+                </g>
+                <text id="DISCOVER" font-family="SFProDisplay-Bold, SF Pro Display" font-size="30" font-weight="bold" letter-spacing="0.3" fill="#020202">
+                    <tspan x="101" y="310">DISCOVER</tspan>
+                </text>
+                <text id="DEFINE" font-family="SFProDisplay-Bold, SF Pro Display" font-size="30" font-weight="bold" letter-spacing="0.3" fill="#020202">
+                    <tspan x="355" y="310">DEFINE</tspan>
+                </text>
+                <text id="DEVELOP" font-family="SFProDisplay-Bold, SF Pro Display" font-size="30" font-weight="bold" letter-spacing="0.3" fill="#020202">
+                    <tspan x="667" y="310">DEVELOP</tspan>
+                </text>
+                <text id="DELIVER" font-family="SFProDisplay-Bold, SF Pro Display" font-size="30" font-weight="bold" letter-spacing="0.3" fill="#020202">
+                    <tspan x="906" y="310">DELIVER</tspan>
+                </text>
+                <text id="Research" font-family="SFProDisplay-Bold, SF Pro Display" font-size="20" font-weight="bold" letter-spacing="0.2" fill="#959595">
+                    <tspan x="101" y="336">Research</tspan>
+                </text>
+                <text id="Synthesis" font-family="SFProDisplay-Bold, SF Pro Display" font-size="20" font-weight="bold" letter-spacing="0.2" fill="#959595">
+                    <tspan x="355" y="336">Synthesis</tspan>
+                </text>
+                <text id="Ideation" font-family="SFProDisplay-Bold, SF Pro Display" font-size="20" font-weight="bold" letter-spacing="0.2" fill="#959595">
+                    <tspan x="667" y="336">Ideation</tspan>
+                </text>
+                <text id="Implementation" font-family="SFProDisplay-Bold, SF Pro Display" font-size="20" font-weight="bold" letter-spacing="0.2" fill="#959595">
+                    <tspan x="906" y="336">Implementation</tspan>
+                </text>
+                <text id="Iteration" font-family="SFProDisplay-Bold, SF Pro Display" font-size="12" font-weight="bold" letter-spacing="0.14" fill="#000000">
+                    <tspan x="906" y="418">Iteration</tspan>
+                </text>
+                <text id="􀊯" font-family="SFProDisplay-Thin, SF Pro Display" font-size="99" font-weight="300" letter-spacing="0.99" fill="#000000">
+                    <tspan x="867" y="445">􀊯</tspan>
+                </text>
+                <text id="Diverging" transform="translate(133.343146, 142.485281) rotate(-45.000000) translate(-133.343146, -142.485281) " font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" letter-spacing="0.2" fill="#000000">
+                    <tspan x="92.3431458" y="149.485281">Diverging</tspan>
+                </text>
+                <text id="Diverging-Copy" transform="translate(703.343146, 120.485281) rotate(-45.000000) translate(-703.343146, -120.485281) " font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" letter-spacing="0.2" fill="#000000">
+                    <tspan x="662.343146" y="127.485281">Diverging</tspan>
+                </text>
+                <text id="Converging" transform="translate(467.353553, 135.495689) rotate(-315.000000) translate(-467.353553, -135.495689) " font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" letter-spacing="0.2" fill="#000000">
+                    <tspan x="417.853553" y="142.495689">Converging</tspan>
+                </text>
+                <text id="Converging-Copy" transform="translate(1015.353553, 135.495689) rotate(-315.000000) translate(-1015.353553, -135.495689) " font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" letter-spacing="0.2" fill="#000000">
+                    <tspan x="965.853553" y="142.495689">Converging</tspan>
+                </text>
+                <path id="Line-2" d="M292.5,13.5 L287.523409,28.3402674 L283.288,24.09 L16.205827,290.208384 L15.4974427,290.914211 L14.0857887,289.497443 L14.794173,288.791616 L281.877,22.673 L277.641831,18.4228873 L292.5,13.5 Z" fill="#000000" fill-rule="nonzero"></path>
+                <path id="Line-2-Copy" d="M840,13 L835.050253,27.8492424 L830.807,23.606 L586.207107,268.207107 L585.5,268.914214 L584.085786,267.5 L584.792893,266.792893 L829.393,22.192 L825.150758,17.9497475 L840,13 Z" fill="#000000" fill-rule="nonzero"></path>
+                <path id="Line-3" d="M318.5,12.0857864 L319.207107,12.7928932 L565.307,258.893 L569.550253,254.650758 L574.5,269.5 L559.650758,264.550253 L563.893,260.307 L317.792893,14.2071068 L317.085786,13.5 L318.5,12.0857864 Z" fill="#000000" fill-rule="nonzero"></path>
+                <path id="Line-3-Copy" d="M866.5,12.0857864 L867.207107,12.7928932 L1133.807,279.393 L1138.05025,275.150758 L1143,290 L1128.15076,285.050253 L1132.393,280.807 L865.792893,14.2071068 L865.085786,13.5 L866.5,12.0857864 Z" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

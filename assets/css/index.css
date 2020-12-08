@@ -345,7 +345,7 @@ body {
 .section-title {
 	font-weight: bold;
 	font-size: 3rem;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	font-family: "Poppins-bold", sans-serif !important;
 	font-weight: bold;
 }
@@ -893,9 +893,12 @@ footer {
 	float: right;
 	position: relative;
 	margin-right: 5%;
-	bottom: 50px;
+	bottom: 60px;
 	font-size: 50px;
 	color: black;
+	font-size: 30px;
+	border: 5px solid #000;
+	padding: 10px;
 }
 
 @keyframes bounce {
@@ -947,22 +950,23 @@ footer {
 
 .back-btn {
 	font-size: 20px !important;
+	font-weight: 500;
 	cursor: pointer;
-	background-color: #111;
-	color: white !important;
-	padding: 15px 20px !important;
+	/* background-color: #111; */
+	color: #000;
+	padding: 10px 15px !important;
 	position: relative;
 	top: 25px;
 	margin-left: 15px;
-	border: none;
-	border-radius: 5px;
+	border: 5px solid #000;
 	transition: all 0.5s;
 }
 
 .back-btn:hover {
-	background-color: #444;
+	background-color: #000;
 	transition: all 0.5s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .fa-arrow-left {
@@ -1101,7 +1105,7 @@ footer {
 	color: white !important;
 	padding: 15px 20px !important;
 	border: none;
-	border-radius: 5px;
+	border-radius: 2px;
 	position: relative;
 	top: 30px;
 	/* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3) !important; */
@@ -1115,16 +1119,26 @@ footer {
 }
 
 .mock {
-	height: 600px;
+	height: 560px;
 	width: auto;
 }
 
-.discover {
+.discover,
+.design {
 	text-align: center;
 	height: 100%;
 	width: 100%;
 	margin-top: 100px;
 	margin-bottom: 100px;
+}
+
+.design-process {
+	width: 100%;
+	height: auto;
+}
+
+.zoom {
+	width: auto;
 }
 
 @media (max-width: 520px) {
@@ -1143,6 +1157,34 @@ footer {
 		margin-top: 0;
 		margin-bottom: 100px;
 	}
+
+	.contact .underline {
+		margin-bottom: 20% !important;
+	}
+
+	.modal-btn {
+		font-size: 25px !important;
+	}
+
+	.form-title {
+		margin-bottom: 10px !important;
+	}
+
+	.text-style1 {
+		margin-bottom: -50px;
+	}
+
+	.zenfit-sub {
+		font-size: 22px;
+	}
+
+	#discover-section {
+		margin-top: 0 !important;
+	}
+
+	.market-research {
+		margin-top: 100px !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -1151,4 +1193,232 @@ footer {
 		width: 100%;
 		margin-top: 100px;
 	}
+
+	.zenfit-logo {
+		width: 100%;
+		height: auto;
+	}
+	.zenfit-sub {
+		font-size: 22px;
+	}
+}
+
+/* Modal Box */
+
+#hidden-content-2 {
+	/* Custom styling */
+	max-width: 550px;
+	padding: 10px 30px 30px 30px;
+	/* border-radius: 4px; */
+
+	/* Custom transition - fade from top*/
+	opacity: 0;
+	transform: translateY(-50px);
+	transition: all 0.3s;
+}
+
+.fancybox-slide--complete #hidden-content-2 {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.contact .underline {
+	margin-bottom: 8%;
+}
+
+.modal-btn {
+	border: 5px solid #000;
+	padding: 15px 30px 15px 30px;
+	font-size: 30px;
+	color: #000;
+	transition: all 0.5s;
+}
+
+.modal-btn:hover {
+	color: #fff;
+	background-color: #000;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.form-title {
+	padding-top: 30px;
+	margin-bottom: -20px;
+	font-weight: bold;
+}
+
+.fa-envelope-open-text {
+	margin-left: 8px;
+}
+
+.items {
+	font-weight: bold;
+}
+
+.intro-text3 {
+	font-size: 20px;
+	color: #7d7d80;
+	font-family: "Helvetica Neue", sans-serif !important;
+}
+
+.text-style1 {
+	font-size: 15px;
+	color: #7d7d80;
+	font-family: "Helvetica Neue", sans-serif !important;
+	font-weight: 500;
+}
+
+.list-item {
+	color: #7d7d80;
+}
+
+.process-text {
+	margin-top: 50px;
+}
+
+#discover-section,
+#process-section {
+	margin-top: 200px;
+}
+
+.prompt {
+	text-align: center;
+	font-size: 10px;
+}
+
+.details {
+	text-align: center;
+	margin-top: 100px;
+	font-family: "Poppins-SemiBold", sans-serif !important;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.bold {
+	font-weight: bold;
+	color: #333;
+}
+
+.secondary {
+	font-family: "Poppins-SemiBold", sans-serif !important;
+	margin-bottom: 20px;
+}
+
+.secondary-research {
+	margin-top: 100px;
+}
+
+.list2 {
+	margin-bottom: 30px;
+}
+
+.c-no {
+	height: 150px;
+	margin-top: 50px;
+}
+/* .grey-bg {
+	background: #397a8e;
+} */
+
+.counter-Txt {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 20px;
+	color: #7d7d80;
+}
+.counter-Txt span {
+	display: block;
+	font-size: 36px;
+	color: #000;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.c-no {
+		height: 100%;
+	}
+	.counter-Txt {
+		margin-top: 35px;
+	}
+	.margin-bot-35 {
+		margin-bottom: 35px;
+	}
+}
+
+.hmw {
+	margin-top: 100px;
+	font-family: "Poppins-bold", sans-serif !important;
+	text-align: center;
+	/* border: 5px solid #000;
+	padding: 30px; */
+}
+
+.fa-arrow-down {
+	font-size: 50px;
+	margin-top: 100px;
+	-moz-animation: pulse 1.3s infinite;
+	-webkit-animation: pulse 1.3s infinite;
+	animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+	20% {
+		transform: translateY(5px);
+	}
+	60% {
+		transform: translateY(5px);
+	}
+}
+
+.market-research {
+	margin-top: 200px;
+}
+
+.comp-image {
+	margin-top: 20px !important;
+	width: 100%;
+	height: auto;
+}
+
+#scroll {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-color: #000;
+	text-indent: -9999px;
+	display: none;
+	/* -webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px; */
+	transition: all 0.5s;
+}
+#scroll span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -8px;
+	margin-top: -12px;
+	height: 0;
+	width: 0;
+	border: 8px solid transparent;
+	border-bottom-color: #ffffff;
+}
+#scroll:hover {
+	background-color: #397a8e;
+	opacity: 1;
+	filter: "alpha(opacity=100)";
+	-ms-filter: "alpha(opacity=100)";
+	transition: all 0.5s;
 }
