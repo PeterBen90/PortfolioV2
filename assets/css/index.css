@@ -1472,7 +1472,7 @@ footer {
 	border-bottom-color: #ffffff;
 }
 #scroll:hover {
-	background-color: #397a8e;
+	background-color: #ffc300;
 	opacity: 1;
 	filter: "alpha(opacity=100)";
 	-ms-filter: "alpha(opacity=100)";
@@ -1490,6 +1490,12 @@ footer {
 	height: auto;
 	width: 100%;
 	margin-top: 100px;
+}
+
+.wire-flows {
+	height: auto;
+	width: 100%;
+	margin-top: 50px;
 }
 
 .primary-research {
@@ -1612,4 +1618,8 @@ footer {
 .change-list {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.mid-fi {
+	margin-top: 100px;
 }
