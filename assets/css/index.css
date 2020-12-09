@@ -1126,7 +1126,8 @@ footer {
 .discover,
 .design,
 .define,
-.develop {
+.develop,
+.deliver {
 	text-align: center;
 	height: 100%;
 	width: 100%;
@@ -1332,7 +1333,8 @@ footer {
 #discover-section,
 #process-section,
 #define-section,
-#develop-section {
+#develop-section,
+#deliver-section {
 	margin-top: 200px;
 }
 
