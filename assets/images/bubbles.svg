@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1641px" height="873px" viewBox="0 0 1641 873" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bubbles</title>
+    <defs>
+        <path d="M68.6711265,636 L805,636 C813.836556,636 821,643.163444 821,652 L821,738.921304 C821,747.75786 813.836556,754.921304 805,754.921304 L88.2783298,754.921304 L88.2783298,754.921304 L34.2376241,785.30346 C30.8914204,787.184724 28.3331243,790.20635 27.0295239,793.81701 C21.6144172,808.815552 20.5719978,805.441299 23.9022657,783.694249 C27.3866695,760.940673 37.1197741,715.813805 53.1015794,648.313644 C54.8103173,641.096691 61.2546443,636 68.6711265,636 Z" id="path-1"></path>
+        <filter x="-9.5%" y="-44.3%" width="119.0%" height="191.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.257248556   0 0 0 0 0.422402103   0 0 0 0 0.479643449  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M67.710052,30.6864035 L805,30.6864035 C813.836556,30.6864035 821,37.8498475 821,46.6864035 L821,133.607707 C821,142.444263 813.836556,149.607707 805,149.607707 L87.3612814,149.607707 L87.3612814,149.607707 L33.249071,179.992036 C29.9012274,181.871871 27.3410027,184.892908 26.0357043,188.50373 C20.61392,203.501908 19.570234,200.127549 22.9046465,178.380653 C26.3934866,155.626585 36.1391184,110.498259 52.141542,42.9956737 C53.8519184,35.7808337 60.295249,30.6864035 67.710052,30.6864035 Z" id="path-3"></path>
+        <filter x="-9.5%" y="-44.3%" width="119.0%" height="191.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.257248556   0 0 0 0 0.422402103   0 0 0 0 0.479643449  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M808.146201,331.686403 L1545.43615,331.686403 C1554.2727,331.686403 1561.43615,338.849847 1561.43615,347.686403 L1561.43615,434.607707 C1561.43615,443.444263 1554.2727,450.607707 1545.43615,450.607707 L827.79743,450.607707 L827.79743,450.607707 L773.68522,480.992036 C770.337376,482.871871 767.777151,485.892908 766.471853,489.50373 C761.050069,504.501908 760.006383,501.127549 763.340795,479.380653 C766.829635,456.626585 776.575267,411.498259 792.577691,343.995674 C794.288067,336.780834 800.731398,331.686403 808.146201,331.686403 Z" id="path-5"></path>
+        <filter x="-9.5%" y="-44.3%" width="119.0%" height="191.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.527059804   0 0 0 0 0.254719   0 0 0 0 0.308979717  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Case-Study-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-3844.000000, -1300.000000)">
+            <g id="bubbles" transform="translate(3873.000000, 1318.000000)">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="1584" height="831"></rect>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#397A8E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#397A8E" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <path d="M50.2475945,-1.13686838e-13 L843,-1.13686838e-13 C851.836556,-1.15310087e-13 859,7.163444 859,16 L859,144 C859,152.836556 851.836556,160 843,160 L71.6553955,160 L71.6553955,160 L10.1429736,203.300699 C7.93626744,204.854055 4.88813146,204.324429 3.33476202,202.117732 C2.63774713,201.127561 2.33322142,199.913853 2.48022461,198.711914 C2.48022461,198.711914 2.48022461,198.711914 2.48022461,198.711914 C6.27288445,167.702071 16.9551559,105.805677 34.5270389,13.0227313 C35.9577017,5.46855411 42.5591364,-1.12274491e-13 50.2475945,-1.13686838e-13 Z" id="Rectangle-Copy-11" fill="#397A8E"></path>
+                <path d="M51.2475945,606 L844,606 C852.836556,606 860,613.163444 860,622 L860,750 C860,758.836556 852.836556,766 844,766 L72.6553955,766 L72.6553955,766 L11.1429736,809.300699 C8.93626744,810.854055 5.88813146,810.324429 4.33476202,808.117732 C3.63774713,807.127561 3.33322142,805.913853 3.48022461,804.711914 C3.48022461,804.711914 3.48022461,804.711914 3.48022461,804.711914 C7.27288445,773.702071 17.9551559,711.805677 35.5270389,619.022731 C36.9577017,611.468554 43.5591364,606 51.2475945,606 Z" id="Rectangle-Copy-10" fill="#397A8E"></path>
+                <g id="Rectangle-Copy-9" transform="translate(1161.436149, 415.186403) scale(-1, 1) translate(-1161.436149, -415.186403) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#C5576B" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <path d="M775.247595,303 L1568,303 C1576.83656,303 1584,310.163444 1584,319 L1584,447 C1584,455.836556 1576.83656,463 1568,463 L796.655396,463 L796.655396,463 L735.142974,506.300699 C732.936267,507.854055 729.888131,507.324429 728.334762,505.117732 C727.637747,504.127561 727.333221,502.913853 727.480225,501.711914 C727.480225,501.711914 727.480225,501.711914 727.480225,501.711914 C731.272884,470.702071 741.955156,408.805677 759.527039,316.022731 C760.957702,308.468554 767.559136,303 775.247595,303 Z" id="Rectangle-Copy-12" fill="#C5576B" transform="translate(1154.718074, 415.343202) scale(-1, 1) translate(-1154.718074, -415.343202) "></path>
+                <text id="“I-love-boxing-becau" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="33" font-weight="400" fill="#FFFFFF">
+                    <tspan x="72" y="56">“I love boxing because it makes me feel </tspan>
+                    <tspan x="72" y="95">powerful, and I love trying new classes with </tspan>
+                    <tspan x="72" y="134">friends.”</tspan>
+                </text>
+                <text id="“My-body-has-become" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="33" font-weight="400" fill="#FFFFFF">
+                    <tspan x="72" y="661">“My body has become a hunk of jello, there’s no </tspan>
+                    <tspan x="72" y="700">separation of work and home and it’s a weird </tspan>
+                    <tspan x="72" y="739">state of jello.”</tspan>
+                </text>
+                <text id="“I-choose-not-to-exe" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="33" font-weight="400" fill="#FFFFFF">
+                    <tspan x="761" y="358">“I choose not to exercise sometimes because of </tspan>
+                    <tspan x="761" y="397">laziness, unmotivated because you have to do it </tspan>
+                    <tspan x="761" y="436">alone.”</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

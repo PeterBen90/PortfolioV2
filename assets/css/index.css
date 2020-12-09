@@ -1214,6 +1214,18 @@ footer {
 		position: relative;
 		top: 25px !important;
 	}
+
+	.user-stories {
+		margin-top: 50px !important;
+	}
+
+	.flow-text {
+		margin-top: 80px !important;
+	}
+
+	.tiles {
+		margin-top: 20px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -1237,6 +1249,10 @@ footer {
 
 	.comp-image {
 		margin-top: 50px !important;
+	}
+
+	.tiles {
+		margin-top: 20px;
 	}
 }
 
@@ -1470,6 +1486,12 @@ footer {
 	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
 }
 
+.task-flows {
+	height: auto;
+	width: 100%;
+	margin-top: 100px;
+}
+
 .primary-research {
 	margin-top: 30px;
 }
@@ -1505,4 +1527,89 @@ footer {
 
 .chosen {
 	border: 5px solid #397a8e;
+}
+
+.user-stories {
+	margin-top: 100px;
+}
+
+.sketches {
+	margin-top: 150px;
+}
+
+.list-text {
+	color: #7d7d80 !important;
+}
+
+.task-details {
+	margin-top: -20px;
+}
+
+.flow-text {
+	margin-top: -20px;
+}
+
+.bubbles {
+	width: 100%;
+	height: auto;
+}
+
+/* Owl Carousel */
+
+.carousel-wrap {
+	margin: 30px auto;
+	padding: 0 5%;
+	width: 100%;
+	position: relative;
+}
+
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
+	position: relative;
+	z-index: 100;
+	-webkit-backface-visibility: hidden;
+}
+
+/* end fix */
+.owl-nav > div {
+	margin-top: -26px;
+	position: absolute;
+	top: 40%;
+	color: #000;
+}
+
+.owl-nav i {
+	font-size: 35px;
+}
+
+.owl-nav .owl-prev {
+	left: -30px;
+}
+
+.owl-nav .owl-next {
+	right: -30px;
+}
+
+.version {
+	margin-left: 10px;
+}
+
+.version-two,
+.wireframes {
+	margin-top: 80px;
+}
+
+.user-testing {
+	margin-top: 50px;
+}
+
+.changes {
+	height: auto;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.change-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
