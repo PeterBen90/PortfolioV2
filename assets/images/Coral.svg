@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="218px" height="256px" viewBox="0 0 218 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Coral</title>
+    <defs>
+        <rect id="path-1" x="27" y="85" width="118" height="79"></rect>
+        <filter x="-64.4%" y="-93.7%" width="228.8%" height="292.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.607897772   0 0 0 0 0.467759772   0 0 0 0 0.493239409  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Case-Study-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-452.000000, -1034.000000)">
+            <g id="Coral" transform="translate(475.000000, 1034.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#338AA4" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-Copy-13" fill="#C5576B" x="0" y="0" width="171" height="171"></rect>
+                <text font-family="SFProDisplay-Bold, SF Pro Display" font-size="20" font-weight="bold" letter-spacing="0.3" fill="#060606">
+                    <tspan x="0" y="209">Coral</tspan>
+                </text>
+                <text id="#C5576B-rgb-(197,-87" font-family="SFProDisplay-Regular, SF Pro Display" font-size="14" font-weight="normal" line-spacing="19" fill="#060606">
+                    <tspan x="0" y="231">#C5576B</tspan>
+                    <tspan x="0" y="250">rgb (197, 87, 107)</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

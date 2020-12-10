@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="225px" height="255px" viewBox="0 0 225 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>White</title>
+    <defs>
+        <rect id="path-1" x="25" y="86" width="125" height="79"></rect>
+        <filter x="-60.8%" y="-93.7%" width="221.6%" height="292.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.740612917   0 0 0 0 0.81128238   0 0 0 0 0.833026831  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Case-Study-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-710.000000, -1035.000000)">
+            <g id="White" transform="translate(735.000000, 1035.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#338AA4" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-Copy-14" stroke="#E8E8E8" fill="#FFFFFF" x="0.5" y="0.5" width="170" height="170"></rect>
+                <text font-family="SFProDisplay-Bold, SF Pro Display" font-size="20" font-weight="bold" letter-spacing="0.3" fill="#060606">
+                    <tspan x="2" y="208">White</tspan>
+                </text>
+                <text id="#FFFFFF-rgb-(255,-25" font-family="SFProDisplay-Regular, SF Pro Display" font-size="14" font-weight="normal" line-spacing="19" fill="#060606">
+                    <tspan x="2" y="230">#FFFFFF</tspan>
+                    <tspan x="2" y="249">rgb (255, 255, 255)</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

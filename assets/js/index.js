@@ -140,7 +140,7 @@ var siteCarousel = function () {
 		stagePadding: 0,
 		margin: 0,
 		autoplay: true,
-		pauseOnHover: true,
+		autoplayHoverPause: true,
 		smartSpeed: 1000,
 		nav: true,
 		navText: [
