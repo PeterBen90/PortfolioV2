@@ -297,7 +297,8 @@ body {
 
 .work,
 .contact,
-.testimonials {
+.testimonials,
+.contact2 {
 	text-align: center;
 	height: 100%;
 	width: 100%;
@@ -1108,7 +1109,7 @@ footer {
 	border-radius: 2px;
 	position: relative;
 	top: 30px;
-	/* box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3) !important; */
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
 	transition: all 0.5s;
 }
 
@@ -1166,7 +1167,8 @@ footer {
 		margin-bottom: 20% !important;
 	}
 
-	.modal-btn {
+	.modal-btn,
+	.modal-btn2 {
 		font-size: 25px !important;
 	}
 
@@ -1237,6 +1239,28 @@ footer {
 	.colours {
 		margin-top: 80px !important;
 	}
+
+	.logo-dev {
+		padding: 0 !important;
+		margin-top: 0 !important;
+	}
+
+	.wordmark {
+		margin-top: 100px !important;
+	}
+
+	.colour-inject {
+		padding: 0 !important;
+		margin-top: 50px !important;
+	}
+
+	.inject {
+		margin-top: 50px !important;
+	}
+
+	.try {
+		margin-top: 100px !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -1265,6 +1289,34 @@ footer {
 	.tiles {
 		margin-top: 20px;
 	}
+
+	.logo-dev {
+		padding: 0 !important;
+		margin-top: 0 !important;
+	}
+
+	.wordmark {
+		margin-top: 100px !important;
+	}
+
+	.colour-block {
+		padding: 0 !important;
+		margin-top: 50px !important;
+		margin-bottom: 50px !important;
+	}
+
+	.colour-inject {
+		padding: 0 !important;
+		margin-top: 50px !important;
+	}
+
+	.inject {
+		margin-top: 50px !important;
+	}
+
+	.try {
+		margin-top: 100px !important;
+	}
 }
 
 /* Modal Box */
@@ -1281,7 +1333,24 @@ footer {
 	transition: all 0.3s;
 }
 
+#hidden-content-3 {
+	/* Custom styling */
+	max-width: 550px;
+	padding: 10px 30px 30px 30px;
+	/* border-radius: 4px; */
+
+	/* Custom transition - fade from top*/
+	opacity: 0;
+	transform: translateY(-50px);
+	transition: all 0.3s;
+}
+
 .fancybox-slide--complete #hidden-content-2 {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.fancybox-slide--complete #hidden-content-3 {
 	opacity: 1;
 	transform: translateY(0);
 }
@@ -1469,7 +1538,7 @@ footer {
 	background-color: #000;
 	text-indent: -9999px;
 	display: none;
-	z-index: 99999999;
+	z-index: 10;
 	transition: all 0.5s;
 }
 #scroll span {
@@ -1653,7 +1722,7 @@ footer {
 	background: #bbbbbb;
 }
 .owl-carousel .owl-dots .owl-dot.active span {
-	background: #397a8e;
+	background: #ffc300;
 }
 
 .icon-image {
@@ -1672,4 +1741,156 @@ footer {
 
 .colours {
 	margin-top: 150px;
+}
+
+.logo-dev {
+	height: auto;
+	width: 100%;
+	padding: 300px;
+	margin-top: -250px;
+}
+
+.wordmark {
+	margin-top: 200px;
+}
+
+.colour-inject {
+	height: auto;
+	width: 100%;
+	padding: 50px;
+}
+
+.inject {
+	margin-top: -200px;
+}
+
+.mockup2 {
+	width: 100%;
+	height: auto;
+}
+
+.try-me {
+	margin-top: 100px;
+}
+
+.try {
+	margin-top: 150px;
+	text-align: center;
+}
+
+.video-btn {
+	font-size: 20px !important;
+	cursor: pointer;
+	background-color: #c5576b;
+	color: white !important;
+	padding: 15px 20px !important;
+	border: none;
+	border-radius: 2px;
+	transition: all 0.5s;
+	position: relative;
+	top: 40px;
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+}
+
+.video-btn:hover {
+	background-color: #88404d;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+video:focus {
+	outline: none;
+}
+
+.proto-btn2 {
+	font-size: 20px !important;
+	cursor: pointer;
+	background-color: #397a8e;
+	color: white !important;
+	padding: 15px 46px !important;
+	border: none;
+	border-radius: 2px;
+	transition: all 0.5s;
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+}
+
+.proto-btn2:hover {
+	background-color: #29515e;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.view-proto-title {
+	margin-bottom: 30px;
+}
+
+.fancybox-content {
+	padding: 30px !important;
+}
+
+.marketing-site {
+	margin-top: 200px;
+}
+
+.responsive-text {
+	margin-bottom: 50px;
+}
+
+.marketing-mockup {
+	height: auto;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.multi-platform {
+	margin-top: 200px;
+}
+
+.key-learnings {
+	margin-top: 100px;
+}
+
+.new-list {
+	padding: 10px;
+	z-index: 8;
+}
+
+.learning {
+	height: auto;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.contact2 {
+	margin-top: 200px;
+	padding-bottom: 100px;
+}
+
+.two {
+	margin-bottom: 80px !important;
+}
+
+.connect {
+	margin-bottom: 100px;
+}
+
+.modal-btn2 {
+	border: 5px solid #000;
+	padding: 15px 36px 15px 36px;
+	font-size: 30px;
+	color: #000;
+	transition: all 0.5s;
+	position: relative;
+	top: 50px;
+}
+
+.modal-btn2:hover {
+	color: #fff;
+	background-color: #000;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.arrow {
+	margin-right: 18px;
 }
