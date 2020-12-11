@@ -1531,6 +1531,16 @@ footer {
 	animation: bounce 3s infinite;
 }
 
+.bouncing {
+	-moz-animation: pulse 1.3s infinite;
+	-webkit-animation: pulse 1.3s infinite;
+	animation: bounce 3s infinite;
+}
+
+.bouncing:hover {
+	animation-play-state: paused;
+}
+
 @keyframes bounce {
 	0%,
 	20%,
