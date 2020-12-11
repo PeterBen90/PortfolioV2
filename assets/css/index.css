@@ -1232,7 +1232,7 @@ footer {
 	}
 
 	.tiles {
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 
 	.colour-block {
@@ -1274,6 +1274,11 @@ footer {
 	.typography-image {
 		margin-top: 80px !important;
 	}
+
+	.persona-image,
+	.stories {
+		margin-top: 50px !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -1300,7 +1305,7 @@ footer {
 	}
 
 	.tiles {
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 
 	.logo-dev {
@@ -1337,6 +1342,11 @@ footer {
 
 	.typography-image {
 		margin-top: 80px !important;
+	}
+
+	.persona-image,
+	.stories {
+		margin-top: 50px !important;
 	}
 }
 
@@ -1582,7 +1592,10 @@ footer {
 	transition: all 0.5s;
 }
 
-.interview-notes {
+.interview-notes,
+.persona-image,
+.stories,
+.sketch-image {
 	height: auto;
 	width: 100%;
 	/* box-shadow: 0 5x 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8; */
@@ -1592,13 +1605,6 @@ footer {
 .watch-mock {
 	height: auto;
 	width: 100%;
-	/* box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8; */
-}
-
-.sketch-image {
-	height: auto;
-	width: 100%;
-	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
 }
 
 .task-flows {
