@@ -91,7 +91,7 @@ $(window).scroll(function () {
 				},
 
 				{
-					duration: 7000,
+					duration: 4000,
 					easing: "swing",
 					step: function () {
 						$this.text(Math.floor(this.countNum) + percent);
