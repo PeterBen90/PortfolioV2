@@ -1251,7 +1251,7 @@ footer {
 
 	.colour-inject {
 		padding: 0 !important;
-		margin-top: 50px !important;
+		margin-top: 80px !important;
 	}
 
 	.inject {
@@ -1311,7 +1311,7 @@ footer {
 
 	.colour-inject {
 		padding: 0 !important;
-		margin-top: 50px !important;
+		margin-top: 80px !important;
 	}
 
 	.inject {
@@ -1910,4 +1910,8 @@ video:focus {
 
 .arrow {
 	margin-right: 18px;
+}
+
+.alliance {
+	margin-bottom: 50px;
 }
