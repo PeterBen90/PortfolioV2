@@ -1289,6 +1289,10 @@ footer {
 	.box-color > img {
 		height: calc(100% - 14vh) !important;
 	}
+
+	.process-text {
+		margin-top: 50px !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -1447,7 +1451,7 @@ footer {
 }
 
 .process-text {
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 #discover-section,
