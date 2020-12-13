@@ -2133,11 +2133,14 @@ video:focus {
 	color: #fff;
 	position: relative;
 	top: 40px;
+	transition: all 0.5s;
 }
 
 .uber-btn:hover {
 	text-decoration: none;
 	color: #fff;
+	background: rgb(37, 37, 37);
+	transition: all 0.5s;
 }
 
 .uber-btn:focus {
