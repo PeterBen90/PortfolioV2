@@ -348,7 +348,7 @@ body {
 .section-title {
 	font-weight: bold;
 	font-size: 3rem;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 	font-family: "Poppins-bold", sans-serif !important;
 	font-weight: bold;
 }
@@ -501,7 +501,7 @@ body {
 .work-sub {
 	margin-top: 80px;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-family: "Poppins-bold", sans-serif !important;
 	font-weight: bold;
 }
