@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
 	box-sizing: border-box;
 }
@@ -2077,12 +2079,12 @@ video:focus {
 .hero-text {
 	padding-top: 15%;
 	padding-left: 10%;
-	font-family: "Uber Move Text";
+	font-family: "Uber Move Text", "Helvetica Neue";
 }
 
 .uber-title {
 	font-size: 4rem;
-	font-weight: bold;
+	font-weight: 600 !important;
 }
 
 .uber-sub {
