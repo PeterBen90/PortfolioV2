@@ -2003,17 +2003,17 @@ video:focus {
 }
 
 .box-color > .square {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-weight: 700;
 	display: block;
 	text-align: left;
 	line-height: 1;
 	padding-left: 15px;
-	padding-top: 15px;
+	padding-top: 8px;
 }
 
 .box-color > .square2 {
-	font-size: 1rem;
+	font-size: 0.8rem;
 	font-weight: 400;
 	display: block;
 	text-align: left;
