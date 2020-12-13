@@ -1276,6 +1276,19 @@ footer {
 	.stories {
 		margin-top: 50px !important;
 	}
+
+	.box-color > .square {
+		font-size: 1rem !important;
+		padding-left: 5px !important;
+	}
+	.box-color > .square2 {
+		font-size: 0.7rem !important;
+		padding-left: 5px !important;
+	}
+
+	.box-color > img {
+		height: calc(100% - 14vh) !important;
+	}
 }
 
 @media (max-width: 768px) {
@@ -1954,4 +1967,187 @@ video:focus {
 
 .alliance {
 	margin-bottom: 50px;
+}
+
+.containers {
+	display: flex;
+	width: 100%;
+	padding: 4% 2%;
+	box-sizing: border-box;
+	height: 60vh;
+}
+
+.box-color {
+	flex: 1;
+	overflow: hidden;
+	transition: 0.5s;
+	margin: 0 2%;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	line-height: 0;
+}
+
+.box-color > img {
+	width: 200%;
+	height: calc(100% - 12vh);
+	object-fit: cover;
+	transition: 0.5s;
+}
+
+.box-color > .square {
+	font-size: 1.5rem;
+	font-weight: 600;
+	display: block;
+	text-align: left;
+	line-height: 1.5;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.box-color > .square2 {
+	font-size: 1rem;
+	font-weight: 400;
+	display: block;
+	text-align: left;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+
+.hex {
+	margin-bottom: 20px;
+}
+
+.box-color:hover {
+	flex: 1 1 50%;
+}
+.box-color:hover > img {
+	width: 100%;
+	/* height: 100%; */
+}
+
+/* Uber Styles */
+
+.site-blocks-cover {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position: center center;
+	background-image: url(/assets/images/uber-hero.png);
+}
+
+.site-blocks-cover .player {
+	position: absolute;
+	bottom: -250px;
+	width: 100%;
+}
+.site-blocks-cover,
+.site-blocks-cover > .container > .row {
+	min-height: 600px;
+	height: calc(100vh);
+}
+
+.portfolio-btn {
+	font-size: 20px !important;
+	font-weight: 500;
+	cursor: pointer;
+	color: #000;
+	padding: 10px 15px !important;
+	position: relative;
+	top: 20px;
+	margin-left: 15px;
+	border: 5px solid #000;
+	transition: all 0.5s;
+}
+
+.portfolio-btn:hover {
+	background-color: #000;
+	transition: all 0.5s;
+	text-decoration: none;
+	color: #fff;
+}
+
+.hero-text {
+	padding-top: 15%;
+	padding-left: 10%;
+	font-family: "Uber Move Text";
+}
+
+.uber-title {
+	font-size: 4rem;
+	font-weight: bold;
+}
+
+.uber-sub {
+	margin-top: 20px;
+}
+
+.green {
+	color: #05a357;
+}
+
+.regular {
+	font-weight: 500;
+}
+
+#hero-section {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.uber-btn {
+	padding: 20px 100px;
+	background: #000;
+	color: #fff;
+	position: relative;
+	top: 40px;
+}
+
+.uber-btn:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.uber-btn:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+@media (max-width: 520px) {
+	.uber-title {
+		font-size: 2.5rem;
+	}
+
+	.hero-text {
+		padding-top: 20%;
+		padding-left: 15px;
+	}
+
+	.uber-sub {
+		font-size: 20px;
+	}
+
+	.site-blocks-cover {
+		background-image: url(/assets/images/mobile-hero.png);
+	}
+
+	.uber-btn {
+		padding: 15px 40px !important;
+		background: #000;
+		color: #fff;
+		position: relative;
+		top: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero-text {
+		padding-top: 10%;
+		padding-left: 15px;
+	}
+
+	.uber-btn {
+		padding: 15px 70px;
+		background: #000;
+		color: #fff;
+		position: relative;
+		top: 30px;
+	}
 }
