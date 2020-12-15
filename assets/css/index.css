@@ -2157,7 +2157,8 @@ video:focus {
 }
 
 .overview,
-.research {
+.research,
+.redesign {
 	text-align: center;
 	height: 100%;
 	width: 100%;
@@ -2168,6 +2169,10 @@ video:focus {
 #overview-section,
 #research-section {
 	margin-top: 150px;
+}
+
+#redesign-section {
+	margin-top: 100px;
 }
 
 .section-title-uber {
@@ -2197,10 +2202,21 @@ video:focus {
 	margin-bottom: 50px;
 }
 
+.list-text4 {
+	font-size: 20px;
+	color: #333;
+	font-family: "Uber Move Text", "Helvetica Neue" !important;
+	margin-bottom: 50px;
+	margin-top: -20px;
+}
+
+.core-flows {
+	margin-top: 100px;
+}
+
 .heuristics {
 	height: auto;
 	width: 100%;
-	/* box-shadow: 0 5x 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8; */
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -2215,11 +2231,46 @@ video:focus {
 	font-weight: 600 !important;
 }
 
-.overview-text {
+.overview-text,
+.uber-colours {
 	margin-top: 100px;
 }
 
+.diff-text-green {
+	background: linear-gradient(to top, #05a357 40%, transparent 40%);
+}
+
+.preliminary-research {
+	margin-top: 100px;
+}
+
+.core-flows-img {
+	height: auto;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.core-flows {
+	height: auto;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.uber-secondary,
+.uber-primary {
+	margin-top: 50px;
+}
+
+.typography-uber,
+.iconography-uber {
+	margin-top: 200px;
+}
+
 @media (max-width: 520px) {
+	.core-flows-img {
+		margin-top: 20px;
+	}
+
 	.uber-title {
 		font-size: 2.5rem;
 	}
@@ -2256,6 +2307,18 @@ video:focus {
 
 	#research-section {
 		margin-top: 150px;
+	}
+
+	.section-title-uber {
+		font-size: 2rem;
+	}
+
+	.iconography-uber {
+		margin-top: 100px;
+	}
+
+	.iconography-text {
+		margin-top: 100px;
 	}
 }
 
