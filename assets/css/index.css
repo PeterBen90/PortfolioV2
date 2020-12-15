@@ -2317,6 +2317,10 @@ video:focus {
 		margin-top: 100px;
 	}
 
+	.typography-uber {
+		margin-top: 100px;
+	}
+
 	.iconography-text {
 		margin-top: 100px;
 	}
@@ -2343,5 +2347,9 @@ video:focus {
 
 	.iconography-uber {
 		margin-top: 100px;
+	}
+
+	.containers {
+		height: 40vh;
 	}
 }
