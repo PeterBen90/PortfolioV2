@@ -2172,7 +2172,7 @@ video:focus {
 }
 
 #redesign-section {
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
 .section-title-uber {
@@ -2218,6 +2218,11 @@ video:focus {
 	height: auto;
 	width: 100%;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.home-redesign {
+	height: auto;
+	width: 100%;
 }
 
 .uber-sub {
@@ -2266,6 +2271,20 @@ video:focus {
 	margin-top: 200px;
 }
 
+.heuristics-one {
+	margin-top: 150px;
+}
+
+.rating {
+	background: #000;
+	color: #fff;
+	padding: 4px 10px 4px 10px;
+}
+
+.severity {
+	margin-top: -20px;
+}
+
 @media (max-width: 520px) {
 	.core-flows-img {
 		margin-top: 20px;
@@ -2301,7 +2320,8 @@ video:focus {
 		margin-right: 41% !important;
 	}
 
-	#overview-section {
+	#overview-section,
+	#redesign-section {
 		margin-top: 100px;
 	}
 
@@ -2321,7 +2341,8 @@ video:focus {
 		margin-top: 100px;
 	}
 
-	.iconography-text {
+	.iconography-text,
+	.heuristics-one {
 		margin-top: 100px;
 	}
 }
