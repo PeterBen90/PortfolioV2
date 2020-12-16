@@ -2183,6 +2183,10 @@ video:focus {
 	font-weight: 700;
 }
 
+.uber-connect {
+	margin-bottom: 90px;
+}
+
 .underline-green {
 	border-bottom: 8px solid #05a357;
 	color: white;
