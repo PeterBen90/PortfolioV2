@@ -518,7 +518,7 @@ body {
 .grid-child a {
 	font-size: 18px;
 	padding: 10px 20px 10px 20px;
-	border-radius: 2px;
+	/* border-radius: 2px; */
 }
 
 .solidReveal {
