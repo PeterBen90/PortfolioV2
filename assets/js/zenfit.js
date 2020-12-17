@@ -78,33 +78,40 @@ $(document).ready(function () {
 var a = 0;
 var percent = "%";
 $(window).scroll(function () {
-	var oTop = $("#counter").offset().top - window.innerHeight;
-	if (a == 0 && $(window).scrollTop() > oTop) {
-		$(".counter-value").each(function () {
-			var $this = $(this),
-				countTo = $this.attr("data-count");
-			$({
-				countNum: $this.text(),
-			}).animate(
-				{
-					countNum: countTo,
-				},
+	try {
+		var oTop = $("#counter").offset().top - window.innerHeight;
+		if (a == 0 && $(window).scrollTop() > oTop) {
+			$(".counter-value").each(function () {
+				var $this = $(this),
+					countTo = $this.attr("data-count");
+				$({
+					countNum: $this.text(),
+				}).animate(
+					{
+						countNum: countTo,
+					},
 
-				{
-					duration: 4000,
-					easing: "swing",
-					step: function () {
-						$this.text(Math.floor(this.countNum) + percent);
-					},
-					complete: function () {
-						$this.text(this.countNum + percent);
-						//alert('finished');
-					},
-				}
-			);
-		});
-		a = 1;
+					{
+						duration: 4000,
+						easing: "swing",
+						step: function () {
+							$this.text(Math.floor(this.countNum) + percent);
+						},
+						complete: function () {
+							$this.text(this.countNum + percent);
+							//alert('finished');
+						},
+					}
+				);
+			});
+			a = 1;
+		}
+	} catch (e) {
+		function stoperror() {
+			return true;
+		}
 	}
+	window.onerror = stoperror;
 });
 
 $(document).ready(function () {

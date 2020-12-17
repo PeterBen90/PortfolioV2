@@ -2158,7 +2158,8 @@ video:focus {
 
 .overview,
 .research,
-.redesign {
+.redesign,
+.testing {
 	text-align: center;
 	height: 100%;
 	width: 100%;
@@ -2167,12 +2168,17 @@ video:focus {
 }
 
 #overview-section,
-#research-section {
+#research-section,
+#testing-section {
 	margin-top: 150px;
 }
 
 #redesign-section {
 	margin-top: 200px;
+}
+
+.testing-uber {
+	margin-top: 150px;
 }
 
 .section-title-uber {
@@ -2289,7 +2295,62 @@ video:focus {
 	margin-top: -20px;
 }
 
+.help {
+	margin-top: 80px;
+}
+
+.chart {
+	margin-top: 50px;
+}
+
+.video-btn2 {
+	cursor: pointer;
+	background-color: #f6f6f6;
+	color: #000 !important;
+	padding: 20px 80px !important;
+	border: none;
+	transition: all 0.5s;
+	position: relative;
+	top: 90px;
+}
+
+.video-btn2:hover {
+	background-color: #c5c5c5;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.video-btn2:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+.uber-btn:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+.try-uber {
+	margin-top: 200px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
 @media (max-width: 520px) {
+	.try-uber {
+		margin-top: 10px;
+		margin-bottom: 80px;
+		text-align: center;
+	}
+
+	.chart {
+		margin-top: 20px;
+	}
+
+	.testing-uber {
+		margin-top: 100px;
+	}
+
 	.core-flows-img {
 		margin-top: 20px;
 	}
@@ -2349,9 +2410,18 @@ video:focus {
 	.heuristics-one {
 		margin-top: 100px;
 	}
+
+	.video-btn2 {
+		padding: 15px 22px !important;
+	}
 }
 
 @media (max-width: 768px) {
+	.try-uber {
+		margin-top: 50px;
+		margin-bottom: 80px;
+	}
+
 	.hero-text {
 		padding-top: 10%;
 		padding-left: 15px;
@@ -2363,6 +2433,10 @@ video:focus {
 		color: #fff;
 		position: relative;
 		top: 30px;
+	}
+
+	.video-btn2 {
+		padding: 15px 50px !important;
 	}
 
 	.underline-green {

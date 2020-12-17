@@ -41,7 +41,7 @@
 					</div>
 					<nav class="nav" id="nav2">
 						<ul id="menu-items2" class="hidden">
-							<li><a class="is-active2" href="#hero-section">HOME</a></li>
+							<li><a class="home" href="index.html">PORTFOLIO</a></li>
 							<li><a href="#overview-section">OVERVIEW</a></li>
 							<li><a href="#research-section">RESEARCH</a></li>
 							<li><a href="#redesign-section">REDESIGN</a></li>
@@ -54,7 +54,6 @@
             </header>
             
             <section id="hero-section" class="site-blocks-cover">
-                <!-- <a href="index.html" class="portfolio-btn"><i class="fas fa-arrow-left"></i> Portfolio</a> -->
                 <div class="hero-text">
                     <h1 class="uber-title">Redesigning </br><span class="regular">Uber </span><span class="green">Eats</span></h1>
                     <h3 class="uber-sub">A Heuristic Evaluation</h3>
@@ -97,6 +96,7 @@
 						</div>
 					</div>
 				</div>
+				<a href="#hero-section" id="scroll" style="display: none;"><span></span></a>
             </section>
 
             <section id="research-section" class="research">
@@ -235,7 +235,7 @@
 							<h4 class="secondary upper uber">Typography</h4>
 							<p class="intro-text4">Uber uses their own typography called Uber Move. It is inspired by the world's best used transportation examples, and designed to maximize its impact across all applications while keeping it easy to read, ownable, and highly recognizable.</p>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 wow pulse" data-wow-duration="1s">
+						<div class="col-lg-6 col-md-6 col-sm-12 wow fadeInRight" data-wow-duration="1s">
 							<a class="fancybox" rel="group" href="/assets/images/uber-move.jpeg"><img class="heuristics" src="/assets/images/uber-move.jpeg" alt="image"></a>
 						</div>
 					</div>
@@ -243,7 +243,7 @@
 
 				<div class="container iconography-uber">
 					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-12 wow pulse" data-wow-duration="1s">
+						<div class="col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-duration="1s">
 							<a class="fancybox" rel="group" href="/assets/images/Icons.png"><img class="heuristics" src="/assets/images/Icons.png" alt="image"></a>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 iconography-text">
@@ -279,9 +279,9 @@
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<h4 class="secondary upper uber">Search Results Page</h4>
 							<h5 class="uber bold">Heuristic: Aesthetic and Minimal Design</h5>
-							<h5 class="uber bold">Severity Rating: <span class="rating">3</span></h5>
+							<h5 class="uber bold">Severity Rating: <span class="rating">2</span></h5>
 							<p class="intro-text4 mt-3">There are 69 results on this page and one results take sup almost the entire page. The slide with dishes on it seemed redundant because you can just click into the result to see those. Having a dish with no details of what's in it seemed unimportant, and having a extremely large image seemed unimportant as well you can get the goals accomplished with a smaller image.</p>
-							<p class="intro-text4 severity">We decided to give this a severity rating of 3 because it interferes with the core task flow of ordering food. If the user gets frustrated with scrolling, and not finding something to eat, they might just leave the app and choose to try another food delivery app altogether, in turn, contributing to the bounce rate.</p>
+							<p class="intro-text4 severity">We decided to give this a severity rating of 2 because it does marginally interfere with the core task flow of ordering food because the user may get frustrated with scrolling, and not finding something to eat. Alternatively, it also is a lower impact issue as the user can still view the results without any major issues.</p>
 						</div>
 						<div class="col-lg-12 col-md-12 col-sm-12 wow pulse" data-wow-duration="1s">
 							<a class="fancybox" rel="group" href="/assets/images/search-results.png"><img class="home-redesign" src="/assets/images/search-results.png" alt="image"></a>
@@ -295,9 +295,9 @@
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<h4 class="secondary upper uber">Remove Item From Cart</h4>
 							<h5 class="uber bold">Heuristic: User Control and Freedom</h5>
-							<h5 class="uber bold">Severity Rating: <span class="rating">3</span></h5>
+							<h5 class="uber bold">Severity Rating: <span class="rating">2</span></h5>
 							<p class="intro-text4 mt-3">Uber's current remove item flow seems a bit difficult for users who are using the app for the first time, or users who arent very tech savvy. In order to remove an item from your cart you have to either tap the food item on your cart slider, only for a second slider to pop up to remove the item or you can slide the food item to the left. Both these actions are not intuititve because the food item doesn't look tappable or slideable in the cart.</p>
-							<p class="intro-text4 severity">We decided to give this issue a severity of 3 because it interferes with the core task flow of ordering food. The user could get very frustrated not being able to remove an item. They would either have to click around until they find a way or leave the app completely and reopen it. This could lead to users just leaving the app, and contribute to high bounce rate.</p>
+							<p class="intro-text4 severity">We decided to give this issue a severity of 2 because removing an item is not impossible, and the user can still remove the item if they slide the food item to the left or tap the food item. The issue is a lower impact change, and should not lead the user to leaving the app.</p>
 						</div>
 						<div class="col-lg-12 col-md-12 col-sm-12 wow pulse" data-wow-duration="1s">
 							<a class="fancybox" rel="group" href="/assets/images/remove-item.png"><img class="home-redesign" src="/assets/images/remove-item.png" alt="image"></a>
@@ -312,7 +312,7 @@
 							<h4 class="secondary upper uber">Checkout Page</h4>
 							<h5 class="uber bold">Heuristic: User Control and Freedom</h5>
 							<h5 class="uber bold">Severity Rating: <span class="rating">2</span></h5>
-							<p class="intro-text4 mt-3">On the current checkout slider, the user is able to add items from their cart intuitively, but the UI doesn;t indicate an intuitive way to remove or edit items in their current cart. Adding an edit button that slides out a remove button can make the experieince that much more pleasant for the user.</p>
+							<p class="intro-text4 mt-3">On the current checkout slider, the user is able to add items from their cart intuitively, but the UI doesn't indicate an intuitive way to remove or edit items in their current cart. Adding an edit button that slides out a remove button can make the experieince that much more pleasant for the user.</p>
 							<p class="intro-text4 severity">We decided to give this issue a severity of 2 because removing an item is not impossible, and the user can still remove the item if they slide the food item to the left. The issue is a lower impact change, and should not lead the user to leaving the app.</p>
 						</div>
 						<div class="col-lg-12 col-md-12 col-sm-12 wow pulse" data-wow-duration="1s">
@@ -322,6 +322,77 @@
 					</div>
 				</div>
 
+				<div class="container heuristics-one">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<h4 class="secondary upper uber">Getting Help With a Past Order</h4>
+							<h5 class="uber bold">Heuristic: Help and Documentation</h5>
+							<h5 class="uber bold">Severity Rating: <span class="rating">3</span></h5>
+							<p class="intro-text4 mt-3">On the current help flow, the user is forced to click through 5 different screens in order to get help from customer service, if their question is not in the FAQs. This was the biggest issue for users when going through the reviews, users where extremely upset with the process of getting help with an order. Instead of having 3 different FAQs sections, we placed them on the first screen of the flow, and if the user still needs further assistance they can choose to contact uber and send a custom message to their customer service. The flow is cut down from 5 screens to two screens, and creates a much more pleasant user experience.</p>
+							<p class="intro-text4 severity">We decided to give this issue a severity of 3 because this was a pretty common issue for users when looking through the reviews, a lot of users even said they would never use Uber Eats again because of this. The flow is very long and difficult to navigate, and will contribute to a higher bounce rate.</p>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 wow pulse" data-wow-duration="1s">
+							<a class="fancybox" rel="group" href="/assets/images/original-help.png"><img class="home-redesign" src="/assets/images/original-help.png" alt="image"></a>
+						</div>
+
+						<div class="col-lg-12 col-md-12 col-sm-12 wow pulse" data-wow-duration="1s">
+							<a class="fancybox" rel="group" href="/assets/images/redesign-help.png"><img class="home-redesign help" src="/assets/images/redesign-help.png" alt="image"></a>
+						</div>
+						
+					</div>
+				</div>
+			
+			</section>
+			
+			<section id="testing-section" class="testing">
+				<h2 class="section-title-uber upper"><span class="diff-text-green">Testing</span></h2>
+				
+				<div class="container testing-uber">
+					<div class="row">
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<h4 class="secondary upper uber">User Testing</h4>
+							<p class="intro-text4">After completing our redesigns, we decided that it was important that we test our changes to make sure they were usable to other users. I stitched together a live prototype for us to test, and together we created a test script with 3 main tasks for the users to complete as they went through the prototype. Overall, we tested 5 people and each one of them was able to complete each task without any problem.</p>
+							<ol class="list-text4 bold">
+								<li>Order sushi from JOEY Restaurants</li>
+								<li>Edit items in cart</li>
+								<li>Get help with a past order from Sushi Omigato</li>
+							</ol>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-12 wow fadeInRight" data-wow-duration="1s">
+							<a class="fancybox" rel="group" href="/assets/images/user-testing.png"><img class="heuristics chart" src="/assets/images/user-testing.png" alt="image"></a>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="container try-me">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-duration="1s">
+							<img class="mockup2" src="/assets/images/uber-mockup-single.png" alt="image">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 try-uber">
+							<h3 class="section-title upper view-proto-title uber">Live Prototype</h3>
+							<a class="uber-btn" target="_blank" href="https://projects.invisionapp.com/prototype/Uber-Eats-Prototype-sketch-ckhoj2kle00exw401blhpep3i/play/">Try the Prototype</a> </br>
+							<a data-fancybox data-src="#hidden-content-3" href="javascript:;" class="video-btn2">Watch Prototype Video</a>
+
+							<div style="display: none;" id="hidden-content-3">
+								<div class="container">
+									<div class="row">
+										<video
+										controls
+										controlsList="nodownload"
+										width="350"
+										height="620"
+									  >
+										<source src="/assets/images/uber-video.mov" type="video/mp4" />
+									  </video>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+				</div>
 			
             </section>
 
