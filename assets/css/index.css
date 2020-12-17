@@ -2303,6 +2303,27 @@ video:focus {
 	margin-top: 50px;
 }
 
+.uber-btn2 {
+	padding: 20px 100px;
+	background: #000;
+	color: #fff;
+	position: relative;
+	top: 40px;
+	transition: all 0.5s;
+}
+
+.uber-btn2:hover {
+	text-decoration: none;
+	color: #fff;
+	background: rgb(37, 37, 37);
+	transition: all 0.5s;
+}
+
+.uber-btn2:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
 .video-btn2 {
 	cursor: pointer;
 	background-color: #f6f6f6;
@@ -2410,10 +2431,6 @@ video:focus {
 	.heuristics-one {
 		margin-top: 100px;
 	}
-
-	.video-btn2 {
-		padding: 15px 22px !important;
-	}
 }
 
 @media (max-width: 768px) {
@@ -2435,10 +2452,6 @@ video:focus {
 		top: 30px;
 	}
 
-	.video-btn2 {
-		padding: 15px 50px !important;
-	}
-
 	.underline-green {
 		margin-left: 41% !important;
 		margin-right: 41% !important;
@@ -2450,5 +2463,9 @@ video:focus {
 
 	.containers {
 		height: 40vh;
+	}
+
+	.video-btn2 {
+		padding: 20px 79px !important;
 	}
 }
