@@ -722,8 +722,8 @@ small {
 	}
 	.foot {
 		font-family: "Poppins", sans-serif !important;
-		letter-spacing: 2px;
-		font-size: 16px !important;
+		letter-spacing: 1px;
+		font-size: 18px !important;
 		font-weight: 700 !important;
 	}
 
@@ -756,10 +756,6 @@ small {
 
 	.fa-chevron-up {
 		display: none !important;
-	}
-
-	.foot {
-		text-decoration: underline !important;
 	}
 
 	.boxy:hover .box-content {
@@ -809,7 +805,7 @@ footer {
 
 .foot {
 	font-family: "Poppins", sans-serif !important;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-size: 25px;
 	font-weight: 700 !important;
 }
