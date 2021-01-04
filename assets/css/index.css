@@ -340,13 +340,13 @@ body {
 .flexbox {
 	display: flex;
 	margin-top: 70px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 .flexbox div {
 	flex: 1;
-	margin: 5px;
+	margin: 8px;
 }
 
 .flexbox div img {
