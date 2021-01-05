@@ -339,9 +339,10 @@ body {
 
 .flexbox {
 	display: flex;
-	margin-top: 70px;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 30px;
 }
 
 .flexbox div {
@@ -681,6 +682,7 @@ small {
 		margin-top: 25px !important;
 		margin-left: 5% !important;
 		margin-right: 5% !important;
+		margin-bottom: 10px !important;
 	}
 
 	.intro-text,
