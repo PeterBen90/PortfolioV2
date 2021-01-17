@@ -13,6 +13,7 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden !important;
+	transition: background-color 0.2s;
 }
 
 #main {
@@ -47,21 +48,27 @@ body {
 
 /* Dark Theme */
 
-/* .dark-theme {
-	background-color: #422057ff !important;
-} */
+.dark-theme {
+	background-color: #cacaca !important;
+}
+
+.dark-theme .intro-text2,
+.dark-theme .sub-header {
+	color: rgb(33, 37, 41) !important;
+}
 
 .dark-theme #main {
 	background-color: #ffc300 !important;
+	border-bottom: 2px solid #cacaca;
 }
 
 .dark-theme footer {
 	background-color: #ffc300 !important;
 }
 
-/* .dark-theme .underline {
-	color: #422057ff;
-} */
+.dark-theme .underline {
+	color: #cacaca;
+}
 
 /* .dark-theme .box {
 	color: #fff !important;
@@ -79,9 +86,9 @@ body {
 	background-image: linear-gradient(to top, #fff 40%, transparent 40%);
 }
 
-/* .dark-theme footer {
-	border-top: 2px solid #000;
-} */
+.dark-theme footer {
+	border-top: 2px solid #cacaca;
+}
 
 .dark-theme .fs {
 	background-color: #fff !important;
