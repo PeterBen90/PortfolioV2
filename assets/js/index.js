@@ -208,3 +208,13 @@ $(document).ready(function () {
 		}
 	});
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+	const main = document.querySelector("body");
+
+	const toggleSwitch = document.querySelector(".switch");
+
+	toggleSwitch.addEventListener("click", () => {
+		main.classList.toggle("dark-theme");
+	});
+});

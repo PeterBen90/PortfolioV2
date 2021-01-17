@@ -22,6 +22,65 @@ body {
 	border-bottom: solid 2px #eaeaea;
 	font-family: "Poppins", sans-serif !important;
 	font-weight: 900 !important;
+	transition: background-color 0.2s;
+}
+
+.switch {
+	display: flex;
+	border-radius: 50px;
+	width: 3rem;
+	padding: 0.3rem;
+	background-color: #ffc300;
+	transition: background-color 0.2s;
+	cursor: pointer;
+	z-index: 9999999;
+	float: right;
+}
+
+.btn-toggle {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: white;
+	transition: transform 0.1s;
+}
+
+/* Dark Theme */
+
+.dark-theme #main {
+	background-color: #ffc300 !important;
+}
+
+.dark-theme footer {
+	background-color: #ffc300 !important;
+}
+
+/* .dark-theme .box {
+	color: #fff !important;
+} */
+
+/* .dark-theme .bar {
+	background-color: #fff !important;
+} */
+
+.dark-theme #scroll:hover {
+	background-color: #333 !important;
+}
+
+.dark-theme footer .text-btn {
+	background-image: linear-gradient(to top, #fff 40%, transparent 40%);
+}
+
+.dark-theme .fs {
+	background-color: #fff !important;
+}
+
+.dark-theme .switch {
+	background-color: rgba(255, 255, 255, 0.397);
+}
+
+.dark-theme .btn-toggle {
+	transform: translateX(17px);
 }
 
 .flex {
