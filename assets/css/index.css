@@ -695,7 +695,7 @@ small {
 }
 
 .form-control {
-	border-radius: 0 !important;
+	border-radius: 4px !important;
 	border: 3px solid black !important;
 }
 
@@ -1957,6 +1957,7 @@ video:focus {
 
 .fancybox-content {
 	padding: 30px !important;
+	border-radius: 4px;
 }
 
 .marketing-site {
