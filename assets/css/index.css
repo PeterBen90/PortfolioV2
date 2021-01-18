@@ -49,7 +49,7 @@ body {
 /* Dark Theme */
 
 .dark-theme {
-	background-color: #cacaca !important;
+	background-color: #dcdcdc !important;
 }
 
 .dark-theme .intro-text2,
@@ -59,7 +59,7 @@ body {
 
 .dark-theme #main {
 	background-color: #ffc300 !important;
-	border-bottom: 2px solid #cacaca;
+	border-bottom: 2px solid #dcdcdc;
 }
 
 .dark-theme footer {
@@ -67,7 +67,7 @@ body {
 }
 
 .dark-theme .underline {
-	color: #cacaca;
+	color: #dcdcdc;
 }
 
 /* .dark-theme .box {
