@@ -1141,7 +1141,7 @@ footer {
 .zenfit-logo {
 	width: 400px;
 	height: auto;
-	margin-top: 30%;
+	margin-top: 10%;
 }
 
 #home-section {
@@ -1210,13 +1210,12 @@ footer {
 	.zenfit-logo {
 		width: 60% !important;
 		height: auto;
+		margin-top: 30% !important;
 	}
 
 	.mock {
 		height: auto;
-		width: 60% !important;
 		margin-top: 100px;
-		margin-left: 20%;
 	}
 
 	#home-section {
@@ -1370,6 +1369,7 @@ footer {
 	.zenfit-logo {
 		width: 100%;
 		height: auto;
+		margin-top: 50%;
 	}
 	.zenfit-sub {
 		font-size: 22px;
@@ -1696,6 +1696,7 @@ footer {
 .watch-mock {
 	height: auto;
 	width: 100%;
+	margin-left: 10%;
 }
 
 .task-flows {
