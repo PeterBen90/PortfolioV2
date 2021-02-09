@@ -1543,7 +1543,21 @@ footer {
 .details {
 	text-align: center;
 	margin-top: 100px;
-	font-family: 'Poppins-SemiBold', sans-serif !important;
+}
+
+.uber-details {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.details h5 {
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: bold !important;
+}
+
+.uber-details h5 {
+	font-family: 'Uber Move Text', 'Helvetica Neue' !important;
+	font-weight: bold !important;
 }
 
 .upper {
