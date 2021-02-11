@@ -418,9 +418,8 @@ body {
 .flexbox {
 	display: flex;
 	margin-top: 50px;
-	margin-left: 10%;
-	margin-right: 10%;
 	margin-bottom: 30px;
+	text-align: center;
 }
 
 .flexbox div {
@@ -760,8 +759,6 @@ small {
 
 	.flexbox {
 		margin-top: 25px !important;
-		margin-left: 5% !important;
-		margin-right: 5% !important;
 		margin-bottom: 10px !important;
 	}
 
@@ -862,8 +859,6 @@ small {
 
 	.flexbox {
 		margin-top: 25px !important;
-		margin-left: 5% !important;
-		margin-right: 5% !important;
 	}
 
 	.underline {
