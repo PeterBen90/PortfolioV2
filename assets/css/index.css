@@ -1939,6 +1939,43 @@ footer {
 	text-decoration: none;
 }
 
+.video-btn3 {
+	font-size: 20px !important;
+	cursor: pointer;
+	background-color: #c5576b;
+	color: white !important;
+	padding: 15px 21px !important;
+	border: none;
+	border-radius: 2px;
+	transition: all 0.5s;
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+	margin-left: 10px;
+}
+
+.video-btn3:hover {
+	background-color: #88404d;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.video-btn4 {
+	font-size: 20px !important;
+	cursor: pointer;
+	background-color: #397a8e;
+	color: white !important;
+	padding: 15px 21px !important;
+	border: none;
+	border-radius: 2px;
+	transition: all 0.5s;
+	box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+}
+
+.video-btn4:hover {
+	background-color: #29515e;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
 video:focus {
 	outline: none;
 }
