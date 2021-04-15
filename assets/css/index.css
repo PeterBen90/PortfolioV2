@@ -407,6 +407,10 @@ body {
 	display: none;
 }
 
+.form-btn {
+	float: right;
+}
+
 .section-title {
 	font-weight: bold;
 	font-size: 3rem;
