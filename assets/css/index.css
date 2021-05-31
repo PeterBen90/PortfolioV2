@@ -718,6 +718,10 @@ small {
 		font-size: 1.3rem !important;
 	}
 
+	.sub-header {
+		text-align: left;
+	}
+
 	.change-bg {
 		width: 450px;
 		height: 420px;
@@ -854,6 +858,10 @@ small {
 @media (max-width: 768px) {
 	.nav li a {
 		font-size: 15px;
+	}
+
+	.sub-header {
+		text-align: left;
 	}
 
 	#menu-bar {
