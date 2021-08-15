@@ -50,15 +50,6 @@ body {
 
 /* Dark Theme */
 
-/* .dark-theme {
-	background-color: #dcdcdc !important;
-} */
-
-/* .dark-theme .intro-text2,
-.dark-theme .sub-header {
-	color: rgb(33, 37, 41) !important;
-} */
-
 .dark-theme #main {
 	/* background-color: #ffc300 !important; */
 	border-bottom: 2px solid #dcdcdc;
@@ -80,33 +71,9 @@ body {
 	transition: background-color 0.5s;
 }
 
-/* .dark-theme .underline {
-	color: #dcdcdc;
-} */
-
-/* .dark-theme .box {
-	color: #fff !important;
-} */
-
-/* .dark-theme .bar {
-	background-color: #fff !important;
-} */
-
-/* .dark-theme #scroll:hover {
-	background-color: #333 !important;
-} */
-
-.dark-theme footer .text-btn {
-	background-image: linear-gradient(to top, #fff 40%, transparent 40%);
-}
-
 .dark-theme footer {
 	border-top: 2px solid #cacaca;
 }
-
-/* .dark-theme .fs {
-	background-color: #f6f6f6 !important;
-} */
 
 .dark-theme .switch {
 	background-color: #ffc300;
