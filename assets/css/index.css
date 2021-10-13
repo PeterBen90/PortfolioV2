@@ -52,7 +52,7 @@ body {
 
 .dark-theme #main {
 	/* background-color: #ffc300 !important; */
-	border-bottom: 2px solid #dcdcdc;
+	/* border-bottom: 2px solid #dcdcdc; */
 	background-image: url('/assets/images/marble.png') !important;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -69,10 +69,6 @@ body {
 	background-size: cover;
 	transition: background-image 0.5s;
 	transition: background-color 0.5s;
-}
-
-.dark-theme footer {
-	border-top: 2px solid #cacaca;
 }
 
 .dark-theme .switch {
@@ -269,6 +265,7 @@ body {
 	color: white;
 	font-size: 16px;
 	text-decoration: none;
+	font-family: 'Poppins';
 }
 
 .nav li a:hover {
