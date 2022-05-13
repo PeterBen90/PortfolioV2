@@ -649,7 +649,7 @@ body {
 }
 
 .send-icn:hover {
-	fill: #ffc300;
+	fill: #333;
 	cursor: pointer;
 	transition: all 0.4s ease;
 }
