@@ -2201,7 +2201,8 @@ video:focus {
 	color: #fff;
 }
 
-#brief-section {
+#brief-section,
+#end-section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -2209,7 +2210,8 @@ video:focus {
 	background-image: url(/assets/images/project-overview-min.png);
 }
 
-#mocks-section {
+#mocks-section,
+#flows-section {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -2230,6 +2232,17 @@ video:focus {
 .mockups {
 	height: auto;
 	width: 100%;
+}
+
+.new-case-btn {
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.new-case-btn:hover {
+	text-decoration: none;
+	color: #7d7d80;
+	transition: all 0.5s;
 }
 
 video {
@@ -2257,7 +2270,10 @@ video {
 #empathy-section,
 #defines-section,
 #ideates-section,
-#annotations-section {
+#annotations-section,
+#flows-section,
+#proto-section,
+#implement-section {
 	padding-left: 24px;
 	padding-right: 24px;
 	padding-top: 120px;
@@ -2266,6 +2282,16 @@ video {
 
 .space-up {
 	padding-top: 64px;
+}
+
+.mt-10 {
+	margin-top: 80px;
+}
+
+.fine-print {
+	font-size: 14px;
+	padding-left: 24px;
+	color: #7d7d80;
 }
 
 .brief {
@@ -2308,7 +2334,17 @@ video {
 	padding-right: 80px;
 	text-align: center; 
 	background-color: #f2f2f2;
-	font-size: 32px;
+	font-size: 28px;
+ }
+ 
+
+ .quote-box-2 {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background-color: #f2f2f2;
+	font-size: 28px;
  }
  
 
@@ -2596,6 +2632,12 @@ video {
 		margin-top: 35%;
 	}
 
+	.fine-print {
+		font-size: 10px;
+		margin-left: 16px;
+		color: #7d7d80;
+	}
+
 	.moz-title-white {
 		font-size: 2rem;
 	}
@@ -2643,6 +2685,13 @@ video {
 		margin-top: 100px;
 	}
 
+	#defines-section,
+	#ideates-section,
+	#implement-section {
+		margin-top: -100px;
+	}
+
+
 	#research-section {
 		margin-top: 150px;
 	}
@@ -2664,10 +2713,10 @@ video {
 		margin-top: 100px;
 	}
 
-	.quote-box {
+	.quote-box,
+	.quote-box-2 {
 		padding-top: 24px;
 		padding-bottom: 24px;
-		text-align: center; 
 		background-color: #f2f2f2;
 		font-size: 20px;
 		padding-left: 24px;
@@ -2678,6 +2727,11 @@ video {
 		text-align: center;
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+
+	.new-case-btn {
+		font-size: 16px;
+		color: #ffffff;
 	}
 	
 }
