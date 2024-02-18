@@ -539,7 +539,7 @@ body {
 }
 .boxy .box-content .post {
 	display: block;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 400;
 	margin-bottom: 25px;
 	margin-left: 20px;
@@ -1534,7 +1534,7 @@ footer {
 	margin-top: 100px;
 }
 
-.uber-details {
+.moz-details {
 	text-align: center;
 	margin-top: 100px;
 }
@@ -1544,7 +1544,7 @@ footer {
 	font-weight: bold !important;
 }
 
-.uber-details h5 {
+.moz-details h5 {
 	font-family: 'Uber Move Text', 'Helvetica Neue' !important;
 	font-weight: bold !important;
 }
@@ -2167,7 +2167,7 @@ video:focus {
 	background-repeat: no-repeat;
 	background-position: top;
 	background-position: center center;
-	background-image: url(/assets/images/uber-hero.png);
+	background-image: url(/assets/images/moz-bg-min.png);
 }
 
 .site-blocks-cover .player {
@@ -2201,18 +2201,98 @@ video:focus {
 	color: #fff;
 }
 
+#brief-section {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position: center center;
+	background-image: url(/assets/images/project-overview-min.png);
+}
+
+#challenge-section {
+	padding-left: 24px;
+	padding-right: 24px;
+	background-color: #f2f2f2;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+#approach-section {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 120px;
+}
+
+#empathy-section,
+#defines-section,
+#ideates-section {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.space-up {
+	padding-top: 64px;
+}
+
+.brief {
+	text-align: center;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.moz-body-white {
+	color: 	#b3b3b3;
+	font-size: 20px;
+	margin-top: 24px;
+}
+
+.moz-body {
+	color: 	#3D3D3D;
+	font-size: 20px;
+	margin-top: 24px;
+}
+
+ .caption {
+	color: #7d7d80;
+	font-weight: 600;
+ }
+
+ .quote-box {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: center; 
+	background-color: #f2f2f2;
+	font-size: 32px;
+ }
+ 
+
 .hero-text {
 	padding-top: 15%;
 	padding-left: 10%;
-	font-family: 'Uber Move Text', 'Helvetica Neue';
+	font-family: 'Poppins', 'Helvetica Neue';
 }
 
-.uber-title {
+.moz-title {
 	font-size: 4rem;
 	font-weight: 600 !important;
+	font-family: 'Poppins', 'Helvetica Neue';
 }
 
-.uber-sub {
+.moz-title-white {
+	font-size: 3rem;
+	font-weight: 600 !important;
+	font-family: 'Poppins', 'Helvetica Neue';
+	color: #fff;
+}
+
+
+.moz-sub {
 	margin-top: 20px;
 }
 
@@ -2228,23 +2308,25 @@ video:focus {
 	border-bottom: 1px solid #e7e7e7;
 }
 
-.uber-btn {
+.moz-btn {
 	padding: 20px 100px;
 	background: #000;
 	color: #fff;
 	position: relative;
 	top: 40px;
 	transition: all 0.5s;
+	font-size: 20px;
+	font-family: 'Helvetica Neue';
 }
 
-.uber-btn:hover {
+.moz-btn:hover {
 	text-decoration: none;
 	color: #fff;
 	background: rgb(37, 37, 37);
 	transition: all 0.5s;
 }
 
-.uber-btn:focus {
+.moz-btn:focus {
 	text-decoration: none;
 	color: #fff;
 }
@@ -2270,11 +2352,11 @@ video:focus {
 	margin-top: 200px;
 }
 
-.testing-uber {
+.testing-moz {
 	margin-top: 150px;
 }
 
-.section-title-uber {
+.section-title-moz {
 	font-weight: bold;
 	font-size: 3rem;
 	letter-spacing: 1px;
@@ -2282,7 +2364,7 @@ video:focus {
 	font-weight: 700;
 }
 
-.uber-connect {
+.moz-connect {
 	margin-bottom: 90px;
 }
 
@@ -2328,19 +2410,19 @@ video:focus {
 	width: 100%;
 }
 
-.uber-sub {
+.moz-sub {
 	color: #333;
-	font-family: 'Uber Move Text', 'Helvetica Neue' !important;
+	font-family: 'Helvetica Neue' !important;
 	font-weight: 600;
 }
 
-.uber {
+.moz {
 	font-family: 'Uber Move Text', 'Helvetica Neue' !important;
 	font-weight: 600 !important;
 }
 
 .overview-text,
-.uber-colours {
+.moz-colours {
 	margin-top: 100px;
 }
 
@@ -2364,13 +2446,13 @@ video:focus {
 	margin-top: 100px;
 }
 
-.uber-secondary,
-.uber-primary {
+.moz-secondary,
+.moz-primary {
 	margin-top: 50px;
 }
 
-.typography-uber,
-.iconography-uber {
+.typography-moz,
+.iconography-moz {
 	margin-top: 200px;
 }
 
@@ -2396,7 +2478,7 @@ video:focus {
 	margin-top: 50px;
 }
 
-.uber-btn2 {
+.moz-btn2 {
 	padding: 20px 100px;
 	background: #000;
 	color: #fff;
@@ -2405,14 +2487,14 @@ video:focus {
 	transition: all 0.5s;
 }
 
-.uber-btn2:hover {
+.moz-btn2:hover {
 	text-decoration: none;
 	color: #fff;
 	background: rgb(37, 37, 37);
 	transition: all 0.5s;
 }
 
-.uber-btn2:focus {
+.moz-btn2:focus {
 	text-decoration: none;
 	color: #fff;
 }
@@ -2439,19 +2521,19 @@ video:focus {
 	color: #fff;
 }
 
-.uber-btn:focus {
+.moz-btn:focus {
 	text-decoration: none;
 	color: #fff;
 }
 
-.try-uber {
+.try-moz {
 	margin-top: 200px;
 	margin-bottom: 80px;
 	text-align: center;
 }
 
 @media (max-width: 520px) {
-	.try-uber {
+	.try-moz {
 		margin-top: 10px;
 		margin-bottom: 80px;
 		text-align: center;
@@ -2461,7 +2543,7 @@ video:focus {
 		margin-top: 20px;
 	}
 
-	.testing-uber {
+	.testing-moz {
 		margin-top: 100px;
 	}
 
@@ -2469,29 +2551,46 @@ video:focus {
 		margin-top: 20px;
 	}
 
-	.uber-title {
+	.moz-title {
 		font-size: 2.5rem;
+		margin-top: 35%;
+	}
+
+	.moz-title-white {
+		font-size: 2rem;
 	}
 
 	.hero-text {
-		padding-top: 20%;
-		padding-left: 15px;
+		text-align: center;
 	}
 
-	.uber-sub {
-		font-size: 20px;
+	.moz-sub {
+		font-size: 24px;
+	}
+
+	.moz-body-white {
+		font-size: 14px;
+	}
+
+	.moz-body {
+		font-size: 14px;
+	}
+
+	.caption {
+		font: 10px;;
 	}
 
 	.site-blocks-cover {
-		background-image: url(/assets/images/mobile-hero.png);
+		background-image: url(/assets/images/moz-mobile-bg-min.png);
 	}
 
-	.uber-btn {
-		padding: 15px 40px !important;
+	.moz-btn {
+		/* padding: 15px 40px !important; */
 		background: #000;
 		color: #fff;
 		position: relative;
 		top: 30px;
+		width: 100% !important;
 	}
 
 	.underline-green {
@@ -2508,15 +2607,15 @@ video:focus {
 		margin-top: 150px;
 	}
 
-	.section-title-uber {
+	.section-title-moz {
 		font-size: 2rem;
 	}
 
-	.iconography-uber {
+	.iconography-moz {
 		margin-top: 100px;
 	}
 
-	.typography-uber {
+	.typography-moz {
 		margin-top: 100px;
 	}
 
@@ -2524,10 +2623,20 @@ video:focus {
 	.heuristics-one {
 		margin-top: 100px;
 	}
+
+	.quote-box {
+		padding-top: 24px;
+		padding-bottom: 24px;
+		text-align: center; 
+		background-color: #f2f2f2;
+		font-size: 20px;
+		padding-left: 24px;
+		padding-right: 24px;
+	 }
 }
 
 @media (max-width: 768px) {
-	.try-uber {
+	.try-moz {
 		margin-top: 50px;
 		margin-bottom: 80px;
 	}
@@ -2537,12 +2646,13 @@ video:focus {
 		padding-left: 15px;
 	}
 
-	.uber-btn {
+	.moz-btn {
 		padding: 15px 70px;
 		background: #000;
 		color: #fff;
 		position: relative;
 		top: 30px;
+		font-size: 16px;
 	}
 
 	.underline-green {
@@ -2550,7 +2660,7 @@ video:focus {
 		margin-right: 41% !important;
 	}
 
-	.iconography-uber {
+	.iconography-moz {
 		margin-top: 100px;
 	}
 
