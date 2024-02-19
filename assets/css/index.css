@@ -2170,6 +2170,14 @@ video:focus {
 	background-image: url(/assets/images/moz-bg-min.png);
 }
 
+.site-blocks-cover-2 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position: center center;
+	background-image: url(/assets/images/moz-funnel-bg-min.png);
+}
+
 .site-blocks-cover .player {
 	position: absolute;
 	bottom: -250px;
@@ -2177,6 +2185,17 @@ video:focus {
 }
 .site-blocks-cover,
 .site-blocks-cover > .container > .row {
+	min-height: 600px;
+	height: calc(100vh);
+}
+
+.site-blocks-cover-2 .player {
+	position: absolute;
+	bottom: -250px;
+	width: 100%;
+}
+.site-blocks-cover-2,
+.site-blocks-cover-2 > .container > .row {
 	min-height: 600px;
 	height: calc(100vh);
 }
@@ -2662,6 +2681,10 @@ video {
 
 	.site-blocks-cover {
 		background-image: url(/assets/images/moz-mobile-bg-min.png);
+	}
+
+	.site-blocks-cover-2 {
+		background-image: url(/assets/images/moz-funnel-mobile-min.png);
 	}
 
 	.moz-btn {
