@@ -2310,6 +2310,7 @@ video {
 .fine-print {
 	font-size: 14px;
 	color: #7d7d80;
+	margin-top: 24px;
 }
 
 .brief {
@@ -2325,7 +2326,6 @@ video {
 	padding-left: 24px;
 	padding-right: 24px;
 	padding-top: 120px;
-	/* padding-bottom: 120px; */
 }
 
 .moz-body-white {
@@ -2648,6 +2648,10 @@ video {
 	.moz-title {
 		font-size: 2.5rem;
 		margin-top: 35%;
+	}
+
+	.screens {
+		padding-bottom: 120px;
 	}
 
 	.fine-print {
