@@ -2178,6 +2178,14 @@ video:focus {
 	background-image: url(/assets/images/moz-funnel-bg-min.png);
 }
 
+.site-blocks-cover-3 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position: center center;
+	background-image: url(/assets/images/nebula-bg-min.png);
+}
+
 .site-blocks-cover .player {
 	position: absolute;
 	bottom: -250px;
@@ -2199,6 +2207,18 @@ video:focus {
 	min-height: 600px;
 	height: calc(100vh);
 }
+
+.site-blocks-cover-3 .player {
+	position: absolute;
+	bottom: -250px;
+	width: 100%;
+}
+.site-blocks-cover-3,
+.site-blocks-cover-3 > .container > .row {
+	min-height: 600px;
+	height: calc(100vh);
+}
+
 
 .portfolio-btn {
 	font-size: 20px !important;
@@ -2689,6 +2709,10 @@ video {
 
 	.site-blocks-cover-2 {
 		background-image: url(/assets/images/moz-funnel-mobile-min.png);
+	}
+
+	.site-blocks-cover-3 {
+		background-image: url(/assets/images/nebula-mobile-min.png);
 	}
 
 	.moz-btn {
