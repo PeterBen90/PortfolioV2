@@ -174,80 +174,22 @@
 						</div>
                     </div>
 
-                    <h3 class="moz-sub space-up">Components, variants, and variables </h3>
-                    <p  class="moz-body">Figma gives design system designers so much to work with. Working with nested components, variants and variables, I was able to create a flexible and robust library. I created 30+ UI components, 1000+ variants and implemented boolean variables within components to allow for easy modification.</p>
-
                 </div>
 			</section>
 
-            <!-- <section id="ideates-section">
-                <div class="container">
-                    <h5 class="caption">IDEATE</h5>
-                    <h3 class="moz-sub">Areas of opportunity</h3> </br>
-
-                    <div class="row">
-						<div class="col-md-12">
-                            <h4 class="moz-body bold">A small pivot:</h4>
-                            <p class="moz-body">We decided to pivot from the post download workstream, this workstream would be handled in a different phase alongside other marketing related work.</p>
-
-							<a class="fancybox" rel="group" href="/assets/images/journey-flow-min.png"><img class="mockups mt-5" src="/assets/images/journey-flow-min.png" alt="image"></a>
-						</div>
-                        <div class="col-md-12">
-
-                            <p class="moz-body">As a team we mapped the the current flow of a user going from install to subscription and what happens in the background. We were able to identify 2 main points of friction in the flow:</p>
-
-                            <ol class="moz-body">
-                                <li class="bold">The user has to leave the core flow right from the start when they are taken out of the app and into the web for create an account</li>
-                                <li class="bold mt-3">When the user is taken to the web to create an account they are met only met with Firefox branding and not Mozilla branding, which is quite confusing</li>
-                            </ol>
-						</div>
-					</div>
-
-
-                    <h3 class="moz-sub space-up">Target audience: Quick & ambivalent</h3> 
-                    <p  class="moz-body">Continuously using our target persona and marketing profile to guide our decisions, we knew that one of their core pain points was having too many logins to keep track of. Q&A users also don’t like to put in a lot of effort into learning to use tools correctly. We had to create a solution that removed any extra steps and reduced cognitive load. Our strategy was to: </p>
-                    <ol class="moz-body">
-                        <li class="bold">Take the account creation and authentication out of the web, and move it in-app so the user doesn’t have to leave the core flow</li>
-                        <li class="bold mt-3">Align on Mozilla branding by replacing Firefox branding and content with Mozilla branding and content</li>
-                    </ol>
-                    <div class="row mt-3">
-						<div class="col-lg-6 col-md-12 mt-5">
-							<a class="fancybox" rel="group" href="/assets/images/moz-persona-min.png"><img class="heuristics" src="/assets/images/moz-persona-min.png" alt="image"></a>
-						</div>
-
-                        <div class="col-lg-6 col-md-12 mt-5">
-							<a class="fancybox" rel="group" href="/assets/images/moz-marketing-profile-min.png"><img class="heuristics" src="/assets/images/moz-marketing-profile-min.png" alt="image"></a>
-						</div>
-					</div>
-            </section> -->
-
-            <!-- <section id="mocks-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="screens">
-                            <h3 class="moz-title-white">In-app Account Creation & Authentication</h3>
-                            <p class="moz-body-white">It was clear to us that this was the correct move, there was quite a bit of push back on doing this because no other Mozilla products moved away from the “Firefox Accounts” model, but we pushed hard because we knew this would help solve both the product and business goals.</p>
-
-                            <div class="col-md-12">
-                                <a class="fancybox" rel="group" href="/assets/images/moz-auth-min.png"><img class="mockups" src="/assets/images/moz-auth-min.png" alt="image"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
-            <!-- <section id="annotations-section">
+            <section id="annotations-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
+                            <!-- <h3 class="moz-sub space-up">Components, variants, and variables </h3> -->
+                            <!-- <p  class="moz-body">Figma gives design system designers so much to work with. Working with nested components, variants and variables, I was able to create a flexible and robust library. I created 40+ UI components, 1000+ variants and implemented boolean variables within components to allow for easy modification.</p> -->
 
-                            <h3 class="moz-sub center">Bringing account creation & authentication in-app</h3>
-                            <p class="moz-body center">Previously the user had to leave the the app in order to log into Mozilla VPN. This would force the user outside of the core flow.</p>
-                            <p class="moz-body center">With this change, the user never has to leave the app in order to create an account or sign in. This forces the user to stay within the core flow, which reduces possible issues, and helps increase conversion.</p>
+                            <h3 class="moz-sub center">Creating a component library of 40+ components</h3>
+                            <p class="moz-body center">I organized these coponents by device (Web vs. mobile) since our products were either web-apps or cross-platform apps. I also made sure to categorize them using <a href="https://atomicdesign.bradfrost.com/chapter-2/" target="_blank">Atomic Design Principles</a></p>
 
                             <video class="mt-5"  autoplay loop muted playsinline>
-                                <source src="assets/images/creation-clip.MP4" type="video/mp4" />
-                                <source src="assets/images/creation-clip.MP4" type="video/ogg" />
+                                <source src="assets/images/library.mp4" type="video/mp4" />
+                                <source src="assets/images/library.mp4" type="video/ogg" />
                                 Your browser does not support the video tag.
                             </video>
                               
@@ -255,98 +197,149 @@
 
                         <div class="col-md-12 space-up mt-5">
 
-                            <h3 class="moz-sub center">Telling a story with brand alignment</h3>
-                            <p class="moz-body center">Previously the login screens on the web were banded with the Firefox name and logo. The mixed branding felt disconneced and confusing, and the research told us that users felt this way too. </p>
-                            <p class="moz-body center">With this change, not only does the user  stay within the core flow, the flow actually makes sense, this was a Mozilla branded product and now the story is much clearer.</p>
+                            <h3 class="moz-sub center">Using variants to hold component states</h3>
+                            <p class="moz-body center">The previous UI Kit did not have any variants. I was able to take each component and create 1000+ variants. This made it inifinitely easier to display state in our designs without having to recreate the components over and over.</p>
 
                             <video class="mt-5"  autoplay loop muted playsinline>
-                                <source src="assets/images/auth-clip.MP4" type="video/mp4" />
-                                <source src="assets/images/auth-clip.MP4" type="video/ogg" />
+                                <source src="assets/images/variants.mp4" type="video/mp4" />
+                                <source src="assets/images/variants.mp4" type="video/ogg" />
+                                Your browser does not support the video tag.
+                            </video>
+                              
+                        </div>
+
+                        <div class="col-md-12 space-up mt-5">
+
+                            <h3 class="moz-sub center">Using variables for easy coponent modification</h3>
+                            <p class="moz-body center">Another upgrade I made to the system was utilizing variables. This would allow us to modify components without having to detatch the instance. For example, adding icons to the left or right side of buttons.</p>
+
+                            <video class="mt-5"  autoplay loop muted playsinline>
+                                <source src="assets/images/variables.mp4" type="video/mp4" />
+                                <source src="assets/images/variables.mp4" type="video/ogg" />
+                                Your browser does not support the video tag.
+                            </video>
+                              
+                        </div>
+
+                        <div class="col-md-12 space-up mt-5">
+
+                            <h3 class="moz-sub center">Creating resposnive components</h3>
+                            <p class="moz-body center">Since we were scaling this design system to be used by 4 products, I needed to make these components adaptable. Using autolayout, I was able to make responsive components that we could resize to whichever viewport we were designing for.</p>
+
+                            <video class="mt-5"  autoplay loop muted playsinline>
+                                <source src="assets/images/responsive-card.mp4" type="video/mp4" />
+                                <source src="assets/images/responsive-card.mp4" type="video/ogg" />
                                 Your browser does not support the video tag.
                             </video>
                               
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section>
 
-            <!-- <section id="flows-section">
+            <section id="teaser-section" class="site-blocks-cover-4">
                 <div class="container">
                     <div class="row">
-                            <div class="col-md-12">
-                                <a class="fancybox" rel="group" href="/assets/images/experience-architecture-min.png"><img class="mockups" src="/assets/images/experience-architecture-min.png" alt="image"></a>
-                            </div>
+                        <div class="screens">
+                            <h3 class="moz-title-white">Introducing: Nebula Design System</h3>
+                            <p class="moz-body-light">We chose the name "Nebula" as a refernce to Atmoic Design. Nebulae can also be regions in space where new starts begin to form, similar to where we were as a design team.</p>
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section>
 
-            <!-- <section id="proto-section">
+            <section id="proto-section">
                 <div class="container">
-                    <h5 class="caption">PROTOTYPE & TEST</h5>
-                    <h3 class="moz-sub">Do these changes work?</h3>
-                    <p  class="moz-body">We mapped out the architecture of the core flow and the potential error states. For this phase we were going to worry about account creation and authentication. For phase two, we were going to look at the “Forgot password” flow which was still done through the web.</p> </br>
+                    <h5 class="caption">DOCUMENTATION</h5>
+                    <h3 class="moz-sub">Creating a source of truth</h3>
+                    <p  class="moz-body">A design system is the source of truth for your company's visual design language. I worked closely with UI engineers to realize their main goals for the design system:</p> </br>
 
-                    <div class="row">
+                    <ol class="moz-body">
+                        <li>Create robust documentation on usage of different styles and components across products</span></li>
+                        <li>Create design tokens that would match their respective CSS styles across codebases</span></li>
+                        <li>Allow this to be a tool to onboard new engineers into our org</li>
+                    </ol>
+
+                    <div class="row mt-5">
 						<div class="col-lg-6 col-md-12">
-							<a class="fancybox" rel="group" href="/assets/images/competitors-min.png"><img class="mockups" src="/assets/images/competitors-min.png" alt="image"></a>
+							<a class="fancybox" rel="group" href="/assets/images/shadow-docs-min.png"><img class="heuristics" src="/assets/images/shadow-docs-min.png" alt="image"></a>
 						</div>
                         <div class="col-lg-6 col-md-12">
-                            <h4 class="moz-body bold">What were our competitors doing?</h4>
-                            <p  class="moz-body">We also looked at our main competitors, and all of them implemented in-app account creation and authentication. We looked at this as a “feature parity” piece of work - we decided that we would launch the feature without any testing and monitor its performance.</p></br>
+                            <h4 class="moz-body bold">Why are we documenting?</h4>
+                            <p  class="moz-body">A design system is more than just a UI Kit. Every UI component would have detailed usage documentation for designers, engineers or any team members to understand. We were in the process of moving our documentation to a documentation site called supernova, but it never materialized.</p></br>
+						</div>
+
+					</div>
+
+                    <div class="row mt-5">
+						<div class="col-lg-6 col-md-12">
+							<a class="fancybox" rel="group" href="/assets/images/tokens-min.png"><img class="heuristics" src="/assets/images/tokens-min.png" alt="image"></a>
+						</div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4 class="moz-body bold">Using design tokens</h4>
+                            <p  class="moz-body">Design tokens are an integral part to creating a cross-functional design system. I worked with the engineers from multiple products to understand the naming conventions of their CSS classes. Using those classes I was able to construct design tokens that would easily match those CSS classes to create value for both designers and engineers.</p></br>
 						</div>
 
 					</div>
                 </div>
-			</section> -->
+			</section>
 
-            <!-- <section id="implement-section">
+            <section id="implement-section">
                 <div class="container">
-                    <h5 class="caption">IMPLEMENT & ITERATE</h5>
-                    <h3 class="moz-sub">What did we see?</h3>
-                    <p  class="moz-body">After implementing this feature with product telemetry we continued to track the data over the course of the thext few months. We also monitored the tickets related to login failure and the results were overwhelmingly positive!</p>
+                    <h5 class="caption">DESIGN LANGUAGE</h5>
+                    <h3 class="moz-sub">Creating our core design principles</h3>
+                    <div class="row mt-5">
+						<div class="col-lg-6 col-md-12">
+							<a class="fancybox" rel="group" href="/assets/images/work-week-min.png"><img class="heuristics" src="/assets/images/work-week-min.png" alt="image"></a>
+						</div>
+                        <div class="col-lg-6 col-md-12">
+                            <h4 class="moz-body bold">UX Team Workweek - Austin, TX</h4>
+                            <p  class="moz-body">The Privacy and Security UX design team traveled to Austin, TX and during this work week, one of the main items of work we needed to accomplish was to create design principles. These principles would be the foundation of our design language, and round off the last pillar of our design system.</p></br>
+						</div>
+
+					</div>
+
+                    <div class="col-md-12 mt-5">
+                        <h4 class="moz-body-lg bold"> &#x2764; Open</h4>
+                        <p  class="moz-body bold">It's about being empathetic and connecting within the community.</p>
+                        <p  class="moz-body">The Privacy and Security UX design team traveled to Austin, TX and during this work week, one of the main items of work we needed to accomplish was to create design principles. These principles would be the foundation of our design language, and round off the last pillar of our design system.</p>
+                    </div>
+
+                    <div class="col-md-12 mt-5">
+                        <h4 class="moz-body-lg bold"> &#129321; Delightful</h4>
+                        <p  class="moz-body bold">It's about adapting to change, offering flexibility and freedom.</p>
+                        <p  class="moz-body">We strive to guide people to the joy of the internet. Our products should provide memorable experiences with exceptional quality. We want to go above and beyond other privacy and security services to provide a flexible end-to-end experience. Nobody should feel overwhelmed or helpless.</p>
+                    </div>
+
+                    <div class="col-md-12 mt-5">
+                        <h4 class="moz-body-lg bold"> &#9889; Disruptive</h4>
+                        <p  class="moz-body bold">It's about changing the perspective and crossing new boundaries.</p>
+                        <p  class="moz-body">Mozilla is optimistic about the future of the internet online and digital experience. People should be motivated to explore and express themselves online. Our products should positively transform people's attitudes and behaviors towards privacy and security. We strive to offer privacy and security with convenience, not as a tax.</p>
+                    </div>
 
                     <div class="quote-box-2 mt-10 row">
                         <h3 class="moz-sub">The impact 🚀</h3>
-                        <p  class="moz-body">We found that roughly 50% of users who make it to the subscription screen end up subscribing (this is an upper bound). Our job was to stop users from dropping off before this point, by improving account conversion rate we would in turn be improving subscription conversion rate.</p> 
+                        <p  class="moz-body">Although we had already launched the visual components of the design system much earlier than we created our core principles, the completion of this work felt extremely validating for our team. I think the impact goes much deeper than increased design efficiency and consistency, but it solidified us as a real org within Mozilla. Here are my “some data, mostly vibes” impacts:</p> 
 
-                        <div class="row mt-5">
-                            <div class="col-lg-6 col-md-12">
-                                <a class="fancybox" rel="group" href="/assets/images/chart-1-min.png"><img class="mockups" src="/assets/images/chart-1-min.png" alt="image"></a>
-                            </div>
-                            <div class="col-lg-6 col-md-12">
-                                <p  class="moz-body">Before implementation account creation rates were sitting around 50%, whereas after, account creation success rates rose to around 75%. <span class="bold">This is a massive 50% increase in conversion success rate</span>.</p></br>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-6 col-md-12">
-                                <a class="fancybox" rel="group" href="/assets/images/chart-2-min.png"><img class="mockups" src="/assets/images/chart-2-min.png" alt="image"></a>
-                            </div>
-                            <div class="col-lg-6 col-md-12">
-                                <p  class="moz-body">Despite the fact that our customer base grew YoY, <span class="bold">support tickets related to login failure dropped ~60% when we moved to in-app account creation and authentication.</span></p> </br>
-                            </div>
-                        </div>
-                    </div>
+                        <ul class="moz-body">
+                            <li class="bold">Company-wide design system acknowledgment</li>
+                            <li class="bold">A cross-functional source of truth for everyone on our team to use</li>
+                            <li class="bold">Time and money saved on faster more efficient designs</li>
+                            <li class="bold">A solid foundation of 40+ components and 1000+ variants to scale</li>
+                        </ul>
+                    </div> 
 
                     <div class="col-md-12 space-up mt-5">
 
                         <h3 class="moz-sub center">What did we do next?</h3>
-                        <p class="moz-body center">After the clear success of implementing this feature, we made small iterations based on some of the data that came in from telemetry, but overall, nothing major changed.</p>
-                        <p class="moz-body center">We were able to identify another friction point in the funnel. Users weren’t quite sure what they can use VPN for and why Mozilla VPN specifically. We decided to add a product onboarding to inform the user about the benefits of Mozilla VPN pre-purchase. I led the delivery of this, and created the animations as well...</p>
-
-                        <video class="mt-5"  autoplay loop muted playsinline>
-                            <source src="assets/images/onboarding.MP4" type="video/mp4" />
-                            <source src="assets/images/onboarding.MP4" type="video/ogg" />
-                            Your browser does not support the video tag.
-                        </video>
+                        <p class="moz-body center">The plan was to round off our design system by working together with content to create our “Voice and Tone” content guidelines. We also planned to move Nebula’s documentation from inside Figma to a docs hosting site called Supernova. <span class="bold">This work was set to kickoff, but never materialized.</span></p>
                           
                     </div>
 
                 </div>
-			</section> -->
+			</section>
 
-            <!-- <section id="end-section">
+            <section id="end-section">
                 <div class="container">
                     <div class="brief">
                         <h3 class="moz-title-white mb-5">Thank you for reading!</h3>
@@ -355,7 +348,7 @@
     
                      </div>
                 </div>
-			</section> -->
+			</section>
 
 
 

@@ -2186,6 +2186,14 @@ video:focus {
 	background-image: url(/assets/images/nebula-bg-min.png);
 }
 
+.site-blocks-cover-4 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position: center center;
+	background-image: url(/assets/images/neb-teaser-min.png);
+}
+
 .site-blocks-cover .player {
 	position: absolute;
 	bottom: -250px;
@@ -2215,6 +2223,17 @@ video:focus {
 }
 .site-blocks-cover-3,
 .site-blocks-cover-3 > .container > .row {
+	min-height: 600px;
+	height: calc(100vh);
+}
+
+.site-blocks-cover-4 .player {
+	position: absolute;
+	bottom: -250px;
+	width: 100%;
+}
+.site-blocks-cover-4,
+.site-blocks-cover-4 > .container > .row {
 	min-height: 600px;
 	height: calc(100vh);
 }
@@ -2354,9 +2373,21 @@ video {
 	margin-top: 24px;
 }
 
+.moz-body-light {
+	color: 	#ffffff;
+	font-size: 20px;
+	margin-top: 24px;
+}
+
 .moz-body {
 	color: 	#3D3D3D;
 	font-size: 20px;
+	margin-top: 24px;
+}
+
+.moz-body-lg {
+	color: 	#3D3D3D;
+	font-size: 28px;
 	margin-top: 24px;
 }
 
@@ -2699,6 +2730,10 @@ video {
 		font-size: 16px;
 	}
 
+	.moz-body-lg {
+		font-size: 20px;
+	}
+
 	.caption {
 		font: 10px;;
 	}
@@ -2713,6 +2748,10 @@ video {
 
 	.site-blocks-cover-3 {
 		background-image: url(/assets/images/nebula-mobile-min.png);
+	}
+
+	.site-blocks-cover-3 {
+		background-image: url(/assets/images/neb-mobile-min.png);
 	}
 
 	.moz-btn {
