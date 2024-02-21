@@ -428,6 +428,7 @@ body {
 	font-weight: bold;
 	font-size: 40px;
 	background: linear-gradient(to top, #ffc300 40%, transparent 40%);
+	color: #212529;
 }
 
 .intro-text,
@@ -437,6 +438,10 @@ body {
 
 .intro-text2 {
 	margin-top: 60px;
+	color: #7d7d80;
+}
+
+.intro-text {
 	color: #7d7d80;
 }
 
