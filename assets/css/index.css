@@ -653,7 +653,7 @@ body {
 }
 
 .fa-user-circle {
-	font-size: 50px;
+	font-size: 48px;
 	margin-right: 20px;
 	margin-bottom: 15px;
 }
@@ -2688,6 +2688,10 @@ video {
 	text-align: center;
 }
 
+.person {
+	font-weight: 600;
+}
+
 @media (max-width: 520px) {
 	.try-moz {
 		margin-top: 10px;
@@ -2772,6 +2776,14 @@ video {
 		position: relative;
 		top: 30px;
 		width: 100% !important;
+	}
+
+	.fa-user-circle {
+		font-size: 32px;
+	}
+
+	.person {
+		font-size: 14px;
 	}
 
 	.underline-green {
