@@ -436,6 +436,12 @@ body {
 	font-size: 25px;
 }
 
+.chow {
+	height: 32px;
+	width: auto;
+	color: #7d7d80;
+}
+
 .intro-text2 {
 	margin-top: 60px;
 	color: #7d7d80;
