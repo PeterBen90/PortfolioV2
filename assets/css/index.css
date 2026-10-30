@@ -508,7 +508,7 @@ body {
 	overflow: hidden;
 	color: #fff;
 	margin-top: 30px;
-	border-radius: 4px;
+	border-radius: 32px;
 }
 .boxy:after {
 	content: '';
@@ -579,7 +579,7 @@ body {
 	border: 2px solid #ffc300;
 	background-color: #ffc300;
 	color: black !important;
-	border-radius: 4px;
+	border-radius: 999px;
 }
 
 .solidReveal span {
@@ -1464,22 +1464,24 @@ footer {
 }
 
 .contact .underline {
-	margin-bottom: 8%;
+	margin-bottom: 6%;
 }
 
 .modal-btn {
-	border: 5px solid #000;
+	border: 5px solid #212529;
 	padding: 15px 30px 15px 30px;
 	font-size: 30px;
-	color: #000;
+	color: #fff;
+	background-color: #212529;
 	transition: all 0.5s;
-	border-radius: 4px;
+	border-radius: 999px;
 	font-weight: 600;
 }
 
 .modal-btn:hover {
-	color: #fff;
-	background-color: #000;
+	color: #f2f2f2;
+	background-color: #333;
+	border: 5px solid #333;
 	transition: all 0.5s;
 	text-decoration: none;
 }
@@ -1672,12 +1674,12 @@ footer {
 	cursor: pointer;
 	width: 50px;
 	height: 50px;
-	background-color: #000;
+	background-color: #212529;
 	text-indent: -9999px;
 	display: none;
 	z-index: 10;
 	transition: all 0.5s;
-	border-radius: 4px;
+	border-radius: 999px;
 }
 #scroll span {
 	position: absolute;
@@ -2009,7 +2011,7 @@ video:focus {
 
 .fancybox-content {
 	padding: 30px !important;
-	border-radius: 4px;
+	border-radius: 16px;
 }
 
 .marketing-site {
@@ -2079,7 +2081,7 @@ video:focus {
 }
 
 .modal-btn2:hover {
-	color: #fff;
+	color: #f2f2f2;
 	background-color: #000;
 	transition: all 0.5s;
 	text-decoration: none;
@@ -2473,6 +2475,7 @@ video {
 	top: 40px;
 	transition: all 0.5s;
 	font-size: 20px;
+	border-radius: 999px;
 	font-family: 'Helvetica Neue';
 }
 
