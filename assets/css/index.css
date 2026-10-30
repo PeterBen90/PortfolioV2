@@ -2451,6 +2451,12 @@ video {
 	color: #fff;
 }
 
+.moz-logo {
+	height: 40px;
+	width: auto;
+	margin-bottom: 24px;
+}
+
 
 .moz-sub {
 	margin-top: 20px;
